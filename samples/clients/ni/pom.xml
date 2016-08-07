@@ -4,17 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>clients</artifactId>
-        <groupId>za.co.discovery.spring.samples</groupId>
+        <groupId>za.co.moronicgeek.spring.samples</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>za.co.discovery.spring.samples.client</groupId>
+    <groupId>za.co.moronicgeek.spring.samples.client</groupId>
     <artifactId>ni</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>za.co.moronicgeek.spring.swagger</groupId>
+            <artifactId>client</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

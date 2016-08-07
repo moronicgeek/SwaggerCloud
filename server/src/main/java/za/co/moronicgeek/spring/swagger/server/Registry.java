@@ -1,6 +1,6 @@
 package za.co.moronicgeek.spring.swagger.server;
 
-import za.co.moronicgeek.spring.swagger.client.ApplicationRegistrationMetadata;
+import za.co.moronicgeek.swagger.cloud.ApplicationRegistrationMetadata;
 
 import java.util.concurrent.ConcurrentHashMap;
 

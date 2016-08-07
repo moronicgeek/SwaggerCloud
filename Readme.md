@@ -5,15 +5,15 @@ You may have many instances of your api and register them to the server however 
 It's helpful to have a single source of api documentation. As long as the application has a hosted swagger json file it can be registered on the swagger cloud server.
  
  
- ##Usage
+##Usage
  
- ###Client
+###Client
  
- ###Server
+###Server
  The server requires a basic spring boot application with the (@EnableSwaggerCloudServer) annotation in your application config.
  
- ###Maven Repo
+###Maven Repo
  The project has been published to the following maven repository.
- ###Gradle
+###Gradle
  
  

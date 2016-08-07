@@ -2,6 +2,7 @@ package za.co.moronicgeek.spring.swagger.server;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -11,6 +12,8 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.ResourcePatternResolver;
+import org.springframework.util.StringUtils;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
@@ -44,6 +47,24 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
         this.applicationContext = applicationContext;
 
+    }
+
+
+    @Bean
+    @ConditionalOnMissingBean
+    public SwaggerCloudProperties adminServerProperties() {
+        return new SwaggerCloudProperties();
+    }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        String contextPath = "/test";
+        if (StringUtils.hasText(contextPath)) {
+            registry.addRedirectViewController(contextPath,
+                    server.getPath(contextPath) + "/");
+        }
+        registry.addViewController(contextPath + "/")
+                .setViewName("forward:index.html");
     }
 
     @Bean

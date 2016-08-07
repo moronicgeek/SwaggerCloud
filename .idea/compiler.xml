@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="client" />
+        <module name="core" />
         <module name="ichi" />
         <module name="ni" />
         <module name="ni (1)" />
@@ -34,6 +35,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
+      <module name="clients" target="1.8" />
+      <module name="core" target="1.8" />
       <module name="ichi" target="1.8" />
       <module name="jedi" target="1.8" />
       <module name="ni" target="1.8" />

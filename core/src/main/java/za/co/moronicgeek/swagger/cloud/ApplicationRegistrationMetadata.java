@@ -1,4 +1,7 @@
-package za.co.moronicgeek.spring.swagger.client;
+package za.co.moronicgeek.swagger.cloud;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Objects;
 
@@ -17,6 +20,17 @@ public class ApplicationRegistrationMetadata {
         this.name = builder.name;
         this.swaggerUrl = builder.swaggerUrl;
     }
+
+    @JsonCreator
+    public static ApplicationRegistrationMetadata fromJson(@JsonProperty("id") int id,
+                                       @JsonProperty("name") String name,
+                                       @JsonProperty("swaggerUrl") String swaggerUrl){
+
+        Builder builder = create(name).withId(id).withName(name).withSwaggerUrl(swaggerUrl);
+
+        return builder.build();
+    }
+
 
     public static Builder create(ApplicationRegistrationMetadata bean){
         return new Builder(bean);

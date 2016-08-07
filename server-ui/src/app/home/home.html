@@ -1,2 +1,10 @@
 <h3>Home Component</h3>
 <p>Welcome to Angular Seed</p>
+
+<li *ngFor="let list of urls">
+
+    {{list}}
+</li>
+
+
+<input type="button" name="I am a button" (click)="onClick($event)" />

@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
@@ -14,6 +15,8 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 @Configuration
 @EnableConfigurationProperties({SwaggerCloudAdminProperties.class, SwaggerCloudClientProperties.class})
 public class SwaggerAdminClientAutoConfiguration {
+
+    private ApplicationContext context;
 
     @Autowired
     private SwaggerCloudClientProperties clientProperties;
@@ -30,6 +33,14 @@ public class SwaggerAdminClientAutoConfiguration {
     public ApplicationRegistrationBean registrationBean(){
         builder.messageConverters(new MappingJackson2HttpMessageConverter());
         return new ApplicationRegistrationBean(clientProperties,adminProperties,builder.build());
+
+    }
+
+    @Bean
+    @ConditionalOnMissingBean
+    public RegistrationApplicationListener applicationListener(ApplicationRegistrationBean bean){
+        RegistrationApplicationListener listener = new RegistrationApplicationListener(bean);
+        return listener;
 
     }
 }

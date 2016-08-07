@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * Created by muhammedpatel on 2016/08/01.
  */
 @ConfigurationProperties("spring.swagger.cloud")
-public class SpringCloudServerProperties {
+public class SwaggerCloudProperties {
 
     private String server ="localhost";
     private int port = 8080;

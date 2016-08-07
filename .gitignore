@@ -2,4 +2,6 @@ target/
 node_modules/
 .idea/
 *.iml
+typings/
+npm-debug.log
 

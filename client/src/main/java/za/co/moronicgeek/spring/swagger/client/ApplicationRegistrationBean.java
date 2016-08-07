@@ -5,6 +5,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
+import za.co.moronicgeek.swagger.cloud.ApplicationRegistrationMetadata;
 
 import java.util.Collections;
 import java.util.Map;
@@ -38,6 +39,17 @@ public class ApplicationRegistrationBean {
 
         return registrationSuccessful;
     }
+
+    public boolean deregisterApplication(){
+
+        boolean deregistered = false;
+        ApplicationRegistrationMetadata self = createMetaDataApplication();
+        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl()+adminProperties.getApiPath(),
+                new HttpEntity<>(self, HTTP_HEADERS), Map.class);
+        adminProperties.getUrl();
+        return deregistered;
+    }
+
 
     private ApplicationRegistrationMetadata createMetaDataApplication() {
         return ApplicationRegistrationMetadata.create(clientProperties.getName()).withSwaggerUrl(clientProperties.getSwaggerUrl()).build();
