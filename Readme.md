@@ -1,5 +1,9 @@
 #Swagger Cloud Admin
 
+![alt text](https://travis-ci.org/moronicgeek/SwaggerCloud.svg?branch=master "Travis CI Build Information")
+
+
+
 This is a server/client spring boot application. It allows you to quickly implement a document portal in swagger. 
 You may have many instances of your api and register them to the server however only one api will show on the front end as this is meant to be used for your developer environment. 
 It's helpful to have a single source of api documentation. As long as the application has a hosted swagger json file it can be registered on the swagger cloud server.
