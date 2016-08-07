@@ -34,19 +34,19 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="client" target="1.8" />
-      <module name="clients" target="1.8" />
-      <module name="core" target="1.8" />
-      <module name="ichi" target="1.8" />
+      <module name="client" target="1.7" />
+      <module name="clients" target="1.7" />
+      <module name="core" target="1.7" />
+      <module name="ichi" target="1.7" />
       <module name="jedi" target="1.8" />
-      <module name="ni" target="1.8" />
+      <module name="ni" target="1.7" />
       <module name="ni (1)" target="1.8" />
-      <module name="samples" target="1.8" />
-      <module name="san" target="1.8" />
-      <module name="server" target="1.8" />
-      <module name="server (1) (za.co.discovery.spring.samples.server)" target="1.8" />
-      <module name="server-ui" target="1.8" />
-      <module name="SpringSwaggerAdmin" target="1.8" />
+      <module name="samples" target="1.7" />
+      <module name="san" target="1.7" />
+      <module name="server" target="1.7" />
+      <module name="server (1) (za.co.discovery.spring.samples.server)" target="1.7" />
+      <module name="server-ui" target="1.7" />
+      <module name="SpringSwaggerAdmin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

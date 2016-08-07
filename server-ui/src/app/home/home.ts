@@ -17,4 +17,8 @@ export class Home {
     alert("i am clicked");
     window.location.href = "http://localhost:3000/swagger-ui/index.html";
   }
+
+  public makeRestCall(){
+
+  }
 }
