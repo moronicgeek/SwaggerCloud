@@ -2,94 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/fonts/DroidSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/fonts/DroidSans.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/collapse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/explorer_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/logo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/pet_store_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/wordnik_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/RegistrationApplicationListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/typography.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/o2c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/swagger-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/swagger-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/geo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ko-kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/translator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/backbone-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/es5-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/handlebars-2.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/highlight.9.1.0.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/highlight.9.1.0.pack_extended.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery-1.8.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.ba-bbq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.slideto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.wiggle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/js-yaml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jsoneditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/object-assign-pollyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/swagger-oauth.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/clients/jedi.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationMetadata.java" afterPath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/ApplicationRegistrationMetadata.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringCloudServerProperties.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SwaggerCloudProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.iml" afterPath="$PROJECT_DIR$/client/client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pom.xml" afterPath="$PROJECT_DIR$/client/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationBean.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerCloudAdminProperties.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerCloudAdminProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/clients.iml" afterPath="$PROJECT_DIR$/samples/clients/clients.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" afterPath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/ichi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ni/ni.iml" afterPath="$PROJECT_DIR$/samples/clients/ni/ni.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ni/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/ni/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/san/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/san.iml" afterPath="$PROJECT_DIR$/samples/clients/san/san.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/pom.xml" afterPath="$PROJECT_DIR$/samples/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/server/pom.xml" afterPath="$PROJECT_DIR$/samples/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/pom.xml" afterPath="$PROJECT_DIR$/server-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/app.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.html" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/pom.xml" afterPath="$PROJECT_DIR$/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/Registry.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/Registry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SwaggerRegistrationController.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SwaggerRegistrationController.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,16 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-184">
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/print.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
             <state />
@@ -220,6 +124,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -255,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/main/java/za/co/discovery/spring/swagger/client/SwaggerCloudClientProperties.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/discovery/spring/swagger/client/ApplicationRegistrationMetadata.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/discovery/spring/swagger/client/ApplicationRegistrationBean.java" />
         <option value="$PROJECT_DIR$/samples/clients/ichi/src/main/java/Application.java" />
@@ -306,6 +219,7 @@
         <option value="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
         <option value="$PROJECT_DIR$/server-ui/src/app/home/home.ts" />
         <option value="$PROJECT_DIR$/server-ui/src/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -504,122 +418,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1301,7 +1099,7 @@
       <workItem from="1470572502794" duration="2189000" />
       <workItem from="1470574869516" duration="260000" />
       <workItem from="1470575237257" duration="182000" />
-      <workItem from="1470575494337" duration="13151000" />
+      <workItem from="1470575494337" duration="13447000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed package">
       <created>1470591938903</created>
@@ -1310,7 +1108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470591938903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A whole lot of initial fixes">
+      <created>1470603597179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470603597179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1325,7 +1130,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35451000" />
+    <option name="totallyTimeSpent" value="35747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1374,7 +1179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed package" />
+    <MESSAGE value="A whole lot of initial fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="A whole lot of initial fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1401,17 +1207,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="1004" column="13" selection-start-line="1004" selection-start-column="13" selection-end-line="1004" selection-end-column="13" />
-          <folding>
-            <element signature="e#44347#44348#0" expanded="false" />
-            <element signature="e#44395#44396#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/server/server (1) (za.co.discovery.spring.samples.server).iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1778,7 +1573,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1872,6 +1667,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
