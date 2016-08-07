@@ -1,5 +1,6 @@
 package za.co.moronicgeek.spring.swagger.server;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -12,9 +13,14 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.ResourcePatternResolver;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import java.util.List;
 
 /**
  * Created by muhammedpatel on 2016/08/01.
@@ -47,6 +53,25 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
         this.applicationContext = applicationContext;
 
+    }
+
+    @Override
+    public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        if (!hasConverter(converters, MappingJackson2HttpMessageConverter.class)) {
+            ObjectMapper objectMapper = Jackson2ObjectMapperBuilder.json()
+                    .applicationContext(this.applicationContext).build();
+            converters.add(new MappingJackson2HttpMessageConverter(objectMapper));
+        }
+    }
+
+    private boolean hasConverter(List<HttpMessageConverter<?>> converters,
+                                 Class<? extends HttpMessageConverter<?>> clazz) {
+        for (HttpMessageConverter<?> converter : converters) {
+            if (clazz.isInstance(converter)) {
+                return true;
+            }
+        }
+        return false;
     }
 
 

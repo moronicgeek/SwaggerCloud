@@ -1,10 +1,11 @@
-<h3>Home Component</h3>
-<p>Welcome to Angular Seed</p>
+<h3>Swagger Cloud</h3>
+<p>Below are a list of your apis. Click on one of them to go to the swagger documentation</p>
 
-<li *ngFor="let list of urls">
+<li *ngFor="let api of swaggerApis">
 
-    {{list}}
+    {{api.id}}
+    {{api.name}}
+    <a href="{{api.swaggerUrl}}">
+    {{api.swaggerUrl}}
+        </a>
 </li>
-
-
-<input type="button" name="I am a button" (click)="onClick($event)" />
