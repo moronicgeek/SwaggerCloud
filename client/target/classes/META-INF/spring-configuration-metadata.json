@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "swagger.cloud.boot.admin",
+      "type": "za.co.discovery.spring.swagger.client.SwaggerCloudAdminProperties",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudAdminProperties"
+    },
+    {
+      "name": "swagger.cloud.boot.client",
+      "type": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.cloud.boot.admin.api-path",
+      "type": "java.lang.String",
+      "description": "The admin rest-apis path.",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudAdminProperties",
+      "defaultValue": "/swaggercloud/register/"
+    },
+    {
+      "name": "swagger.cloud.boot.admin.url",
+      "type": "java.lang.String",
+      "description": "The admin server urls to register at",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudAdminProperties"
+    },
+    {
+      "name": "swagger.cloud.boot.client.admin-server-url",
+      "type": "java.lang.String",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties",
+      "defaultValue": "http://localhost:4891"
+    },
+    {
+      "name": "swagger.cloud.boot.client.name",
+      "type": "java.lang.String",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "swagger.cloud.boot.client.server",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties"
+    },
+    {
+      "name": "swagger.cloud.boot.client.server-port",
+      "type": "java.lang.Integer",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties"
+    },
+    {
+      "name": "swagger.cloud.boot.client.swagger-url",
+      "type": "java.lang.String",
+      "sourceType": "za.co.discovery.spring.swagger.client.SwaggerCloudClientProperties",
+      "defaultValue": "http://localhost:9384/swagger.json"
+    }
+  ],
+  "hints": []
+}

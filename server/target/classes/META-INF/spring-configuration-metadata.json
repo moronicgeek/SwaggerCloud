@@ -1,0 +1,22 @@
+{
+  "groups": [{
+    "name": "spring.swagger.cloud",
+    "type": "za.co.discovery.spring.swagger.server.SpringCloudServerProperties",
+    "sourceType": "za.co.discovery.spring.swagger.server.SpringCloudServerProperties"
+  }],
+  "properties": [
+    {
+      "name": "spring.swagger.cloud.port",
+      "type": "java.lang.Integer",
+      "sourceType": "za.co.discovery.spring.swagger.server.SpringCloudServerProperties",
+      "defaultValue": 8080
+    },
+    {
+      "name": "spring.swagger.cloud.server",
+      "type": "java.lang.String",
+      "sourceType": "za.co.discovery.spring.swagger.server.SpringCloudServerProperties",
+      "defaultValue": "localhost"
+    }
+  ],
+  "hints": []
+}

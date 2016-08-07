@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringSwaggerAdmin.iml" filepath="$PROJECT_DIR$/SpringSwaggerAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clients/clients.iml" filepath="$PROJECT_DIR$/samples/clients/clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clients/ichi/ichi.iml" filepath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clients/jedi.iml" filepath="$PROJECT_DIR$/samples/clients/jedi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clients/ni/ni.iml" filepath="$PROJECT_DIR$/samples/clients/ni/ni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clients/san/san.iml" filepath="$PROJECT_DIR$/samples/clients/san/san.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-ui/server-ui.iml" filepath="$PROJECT_DIR$/server-ui/server-ui.iml" />
+    </modules>
+  </component>
+</project>
