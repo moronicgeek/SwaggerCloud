@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=za.co.discovery.spring.swagger.server.SpringSwaggerCloudServer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=za.co.moronicgeek.spring.swagger.server.SpringSwaggerCloudServer

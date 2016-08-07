@@ -1,4 +1,4 @@
-package za.co.discovery.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
-import static com.sun.tools.javac.jvm.ByteCodes.ret;
 
 /**
  * Created by muhammedpatel on 2016/08/01.

@@ -1,4 +1,4 @@
-package za.co.discovery.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import za.co.discovery.spring.swagger.client.ApplicationRegistrationMetadata;
+import za.co.moronicgeek.spring.swagger.client.ApplicationRegistrationMetadata;
 
 import static org.springframework.http.ResponseEntity.status;
 

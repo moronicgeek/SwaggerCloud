@@ -1,4 +1,4 @@
-package za.co.discovery.spring.swagger.client;
+package za.co.moronicgeek.spring.swagger.client;
 
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

@@ -1,4 +1,4 @@
-package za.co.discovery.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server;
 
 /*
  * Copyright 2014 the original author or authors.

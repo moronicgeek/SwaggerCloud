@@ -1,4 +1,4 @@
-package za.co.discovery.spring.swagger.client;
+package za.co.moronicgeek.spring.swagger.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
