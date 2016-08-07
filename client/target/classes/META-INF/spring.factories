@@ -1,1 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=za.co.discovery.spring.swagger.client.SwaggerAdminClientAutoConfiguration
