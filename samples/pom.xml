@@ -35,6 +35,7 @@
 
     <modules>
         <module>clients</module>
+        <module>server</module>
     </modules>
 
 

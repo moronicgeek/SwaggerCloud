@@ -1,6 +1,4 @@
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Test;
 import org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration;
 import org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;
 import org.springframework.boot.test.util.EnvironmentTestUtils;
@@ -15,14 +13,14 @@ public class ConfigurationTest {
 
     private AnnotationConfigWebApplicationContext context;
 
-    @After
+
     public void close() {
         if (this.context != null) {
             this.context.close();
         }
     }
 
-    @Test
+
     public void testSwagerCloudAdminProperties(){
         load("adminServerUrl=IAMAURL","swaggerUrl=IAMASWAGGERURL","name=IHAVEANAME");
         SwaggerCloudClientProperties clientProperties = new SwaggerCloudClientProperties();

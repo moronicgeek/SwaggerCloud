@@ -25,8 +25,10 @@
         <module name="client" />
         <module name="ichi" />
         <module name="ni" />
+        <module name="ni (1)" />
         <module name="san" />
         <module name="server" />
+        <module name="server (1) (za.co.discovery.spring.samples.server)" />
         <module name="server-ui" />
       </profile>
     </annotationProcessing>
@@ -35,9 +37,11 @@
       <module name="ichi" target="1.8" />
       <module name="jedi" target="1.8" />
       <module name="ni" target="1.8" />
+      <module name="ni (1)" target="1.8" />
       <module name="samples" target="1.8" />
       <module name="san" target="1.8" />
       <module name="server" target="1.8" />
+      <module name="server (1) (za.co.discovery.spring.samples.server)" target="1.8" />
       <module name="server-ui" target="1.8" />
       <module name="SpringSwaggerAdmin" target="1.8" />
     </bytecodeTargetLevel>

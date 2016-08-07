@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import za.co.discovery.spring.swagger.client.ApplicationRegistrationMetadata;
 
+import static org.springframework.http.ResponseEntity.status;
+
 /**
  * Created by muhammedpatel on 2016/08/06.
  */
@@ -32,6 +34,19 @@ public class SwaggerRegistrationController {
     public ResponseEntity<ApplicationRegistrationMetadata> register(@RequestBody ApplicationRegistrationMetadata app) {
         LOGGER.debug("Register application {}", app.toString());
         ApplicationRegistrationMetadata registeredApp = registry.getRegistry().put(app.getName(),app);
-        return ResponseEntity.status(HttpStatus.CREATED).body(registeredApp);
+        return status(HttpStatus.CREATED).body(registeredApp);
+    }
+
+    /**
+     * Register an application within this admin application.
+     *
+     * @param app The application infos.
+     * @return The registered application.
+     */
+    @RequestMapping(value = "/api/hello", method = RequestMethod.GET)
+    public ResponseEntity<String> register() {
+        LOGGER.debug("It's all a test " );
+
+        return ResponseEntity.ok("Hello From the server");
     }
 }
