@@ -1,7 +1,8 @@
-#Swagger Cloud Admin
-
-![alt text](https://travis-ci.org/moronicgeek/SwaggerCloud.svg?branch=master "Travis CI Build Information")
-
+Swagger Cloud Admin
+===================
+[![Travis CI](https://travis-ci.org/moronicgeek/SwaggerCloud.svg?branch=master)](https://travis-ci.org/moronicgeek/SwaggerCloud.svg?branch=master)
+[![Apache License 2](https://img.shields.io/badge/license-ASF2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1c17f07400bc4dbc9e9bc93861d73bb8)](https://www.codacy.com/app/patel-muhammed/SwaggerCloud?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=moronicgeek/SwaggerCloud&amp;utm_campaign=Badge_Grade)
 
 
 This is a server/client spring boot application. It allows you to quickly implement a document portal in swagger. 
