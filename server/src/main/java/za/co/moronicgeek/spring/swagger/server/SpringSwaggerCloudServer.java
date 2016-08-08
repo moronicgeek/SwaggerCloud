@@ -19,6 +19,9 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
+import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
+import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package za.co.moronicgeek.swagger.cloud;
+package za.co.moronicgeek.swagger.cloud.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,19 +14,26 @@ public class ApplicationRegistrationMetadata {
     private int id;
     private String name;
     private String swaggerUrl;
+    private String groupId;
 
     public ApplicationRegistrationMetadata(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
         this.swaggerUrl = builder.swaggerUrl;
+        this.groupId = builder.groupId;
+    }
+
+    public ApplicationRegistrationMetadata(){
+
     }
 
     @JsonCreator
     public static ApplicationRegistrationMetadata fromJson(@JsonProperty("id") int id,
                                        @JsonProperty("name") String name,
-                                       @JsonProperty("swaggerUrl") String swaggerUrl){
+                                       @JsonProperty("swaggerUrl") String swaggerUrl,
+                                                           @JsonProperty("groupId")String groupId){
 
-        Builder builder = create(name).withId(id).withName(name).withSwaggerUrl(swaggerUrl);
+        Builder builder = create(name).withId(id).withName(name).withSwaggerUrl(swaggerUrl).withGroupId(groupId);
 
         return builder.build();
     }
@@ -43,11 +50,13 @@ public class ApplicationRegistrationMetadata {
         private int id;
         private String name;
         private String swaggerUrl;
+        private String groupId;
 
         private Builder(ApplicationRegistrationMetadata bean){
             this.id  = bean.getId();
             this.name = bean.getName();
             this.swaggerUrl = bean.getSwaggerUrl();
+            this.groupId = bean.getGroupId();
         }
 
         private Builder(String name){
@@ -67,6 +76,12 @@ public class ApplicationRegistrationMetadata {
 
        public Builder withSwaggerUrl(String swaggerUrl){
            this.swaggerUrl = swaggerUrl;
+           return this;
+       }
+
+
+       public Builder withGroupId(String groupId){
+           this.groupId = groupId;
            return this;
        }
 
@@ -102,19 +117,28 @@ public class ApplicationRegistrationMetadata {
         this.swaggerUrl = swaggerUrl;
     }
 
+    public String getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(String groupId) {
+        this.groupId = groupId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ApplicationRegistrationMetadata that = (ApplicationRegistrationMetadata) o;
-        return id == that.id &&
-                Objects.equals(name, that.name) &&
-                Objects.equals(swaggerUrl, that.swaggerUrl);
+        ApplicationRegistrationMetadata metadata = (ApplicationRegistrationMetadata) o;
+        return id == metadata.id &&
+                Objects.equals(name, metadata.name) &&
+                Objects.equals(swaggerUrl, metadata.swaggerUrl) &&
+                Objects.equals(groupId, metadata.groupId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, swaggerUrl);
+        return Objects.hash(id, name, swaggerUrl, groupId);
     }
 
     @Override
@@ -123,6 +147,7 @@ public class ApplicationRegistrationMetadata {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", swaggerUrl='" + swaggerUrl + '\'' +
+                ", groupId='" + groupId + '\'' +
                 '}';
     }
 }

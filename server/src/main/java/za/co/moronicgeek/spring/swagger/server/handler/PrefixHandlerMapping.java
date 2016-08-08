@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server.handler;
 
 /*
  * Copyright 2014 the original author or authors.

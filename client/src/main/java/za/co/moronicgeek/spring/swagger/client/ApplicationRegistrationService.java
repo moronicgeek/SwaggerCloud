@@ -5,7 +5,9 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
-import za.co.moronicgeek.swagger.cloud.ApplicationRegistrationMetadata;
+import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudAdminProperties;
+import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
+import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.Collections;
 import java.util.Map;
@@ -15,14 +17,14 @@ import java.util.Map;
  *
  * This class will register an api with the swager cloud server
  */
-public class ApplicationRegistrationBean {
+public class ApplicationRegistrationService {
 
     private SwaggerCloudAdminProperties adminProperties;
     private SwaggerCloudClientProperties clientProperties;
     private final RestTemplate template;
 
 
-    public ApplicationRegistrationBean(SwaggerCloudClientProperties clientProperties,SwaggerCloudAdminProperties adminProperties,RestTemplate template){
+    public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template){
         this.adminProperties = adminProperties;
         this.clientProperties = clientProperties;
         this.template = template;

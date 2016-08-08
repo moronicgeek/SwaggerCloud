@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.client;
+package za.co.moronicgeek.spring.swagger.client.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

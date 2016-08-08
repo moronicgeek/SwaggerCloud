@@ -1,15 +1,14 @@
-package za.co.moronicgeek.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server.resource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import za.co.moronicgeek.swagger.cloud.ApplicationRegistrationMetadata;
+import za.co.moronicgeek.spring.swagger.server.registry.Registry;
+import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
+import java.util.List;
 
 import static org.springframework.http.ResponseEntity.status;
 
@@ -35,8 +34,8 @@ public class SwaggerRegistrationController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public ResponseEntity<ApplicationRegistrationMetadata> register(@RequestBody ApplicationRegistrationMetadata app) {
         LOGGER.debug("Register application {}", app.toString());
-        ApplicationRegistrationMetadata registeredApp = registry.getRegistry().put(app.getName(),app);
-        return status(HttpStatus.CREATED).body(registeredApp);
+        registry.addApi(app);
+        return status(HttpStatus.CREATED).body(app);
     }
 
     /**
@@ -64,7 +63,22 @@ public class SwaggerRegistrationController {
     public ResponseEntity<String> size() {
         LOGGER.debug("It's all a test " );
 
-        return ResponseEntity.ok(registry.getRegistry().size()+"");
+        return ResponseEntity.ok(registry.size()+"");
+    }
+
+
+    /**
+     * Register an application within this admin application.
+     *
+
+     * @return The registered application.
+     */
+    @CrossOrigin(origins = "http://localhost:3000")
+    @RequestMapping(value = "/api/sizeof/{groupId}", method = RequestMethod.GET)
+    public ResponseEntity<String> size(@PathVariable String groupId) {
+        LOGGER.debug("It's all a test " );
+
+        return ResponseEntity.ok(registry.sizeOf(groupId)+"");
     }
 
     /**
@@ -75,10 +89,8 @@ public class SwaggerRegistrationController {
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/api/all", method = RequestMethod.GET)
-    public @ResponseBody ResponseEntity<ArrayList<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
-        LOGGER.debug("It's all a test " );
-        Enumeration<ApplicationRegistrationMetadata> enumeration = registry.getRegistry().elements();
-
-        return ResponseEntity.ok(Collections.list(enumeration));
+    public @ResponseBody ResponseEntity<List<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
+        LOGGER.debug("Retrieving all registered application" );
+        return ResponseEntity.ok(registry.getAllBeans());
     }
 }

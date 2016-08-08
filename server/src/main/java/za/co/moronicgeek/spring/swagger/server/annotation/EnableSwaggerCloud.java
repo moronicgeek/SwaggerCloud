@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.server;
+package za.co.moronicgeek.spring.swagger.server.annotation;
 
 
 import java.lang.annotation.*;
