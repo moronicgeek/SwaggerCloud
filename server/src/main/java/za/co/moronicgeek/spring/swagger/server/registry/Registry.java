@@ -1,5 +1,7 @@
 package za.co.moronicgeek.spring.swagger.server.registry;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
@@ -11,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 //TODO probably a good idea to create an interface for other stores like hazel cast and the myriad other stores. One Day!!!
 public class Registry {
-
+    private static Logger LOGGER = LoggerFactory.getLogger(Registry.class);
     private ConcurrentHashMap<String, Set<ApplicationRegistrationMetadata>> registry = new ConcurrentHashMap<>();
 
     public boolean addApi(ApplicationRegistrationMetadata metadata){
@@ -24,10 +26,11 @@ public class Registry {
             Set<ApplicationRegistrationMetadata> set = new HashSet<ApplicationRegistrationMetadata>();
             set.add(metadata);
             registry.put(metadata.getGroupId(),set);
+
         }else{
             swaggerGroup.add(metadata);
         }
-
+        LOGGER.info("Added Api to Registry {}" , metadata);
         return true;
     }
 
@@ -71,7 +74,7 @@ public class Registry {
                 registry.remove(metadata.getGroupId());
             }
         }
-
+        LOGGER.info("Application deregistration complete {}" , metadata);
         return true;
     }
 

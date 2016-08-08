@@ -25,14 +25,26 @@ public class RegistrationApplicationListener {
     @EventListener
     @Order(Ordered.LOWEST_PRECEDENCE)
     public void onApplicationReady(ApplicationReadyEvent event){
-        register.registerApplication();
+        LOGGER.info("Attempting to Register Application with Swagger Cloud Server");
+        try {
+            register.registerApplication();
+        }catch(Exception e){
+
+            LOGGER.warn("Let's be real quiet like about this..... SWAGGER CLOUD IS DOWN!!");
+        }
+
     }
 
 
     @EventListener
     @Order(Ordered.LOWEST_PRECEDENCE)
     public void onApplicationShutdown(ContextClosedEvent event){
-        register.deregisterApplication();
+        try {
+            register.deregisterApplication();
+        }
+        catch(Exception ex){
+            LOGGER.warn("Server is probably down!! No worry you are dead so you don't care do you");
+        }
     }
 
 
