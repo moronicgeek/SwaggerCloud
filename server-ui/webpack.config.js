@@ -44,7 +44,7 @@ var defaultConfig = {
 
   resolve: {
     root: [ path.join(__dirname, "src") ],
-    extensions: ["""", ".ts", ".js"]
+    extensions: ["", ".ts", ".js"]
   },
 
   devServer: {
