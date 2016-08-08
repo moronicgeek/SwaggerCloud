@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("swagger.cloud.boot.admin")
 public class SwaggerCloudAdminProperties {
     /**
-     * The admin server urls to register at
+     * The admin server url to register at
      */
     private String url;
 
@@ -16,6 +16,7 @@ public class SwaggerCloudAdminProperties {
      * The admin rest-apis path.
      */
     private String apiPath = "/test/register/";
+
 
     public String getUrl() {
         return url;

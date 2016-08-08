@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Set.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Set.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="231" column="70" selection-start-line="231" selection-start-column="70" selection-end-line="231" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegistryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/test/java/RegistryTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,8 +68,8 @@
       <file leaf-file-name="SwaggerRegistrationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,22 +87,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrefixHandlerMapping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/handler/PrefixHandlerMapping.java">
+      <file leaf-file-name="ApplicationRegistrationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationRegistrationService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
+      <file leaf-file-name="SwaggerCloudAdminProperties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminRoutes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <folding>
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,9 +128,10 @@
       <file leaf-file-name="SwaggerCloudClientProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
+                <element signature="e#731#732#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#807#808#0" expanded="true" />
                 <element signature="e#845#846#0" expanded="true" />
@@ -132,8 +143,8 @@
       <file leaf-file-name="ApplicationRegistrationMetadata.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="705">
+              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -156,6 +167,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -170,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/NiApplication.java" />
-        <option value="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java" />
-        <option value="$PROJECT_DIR$/samples/server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/client/src/test/java/ConfigurationTest.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/discovery/spring/swagger/server/PrefixHandlerMapping.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/discovery/spring/swagger/server/SpringSwaggerCloudServer.java" />
@@ -216,11 +225,14 @@
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationBean.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" />
         <option value="$PROJECT_DIR$/server/src/test/java/RegistryTest.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ADMINROUTES.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
       </list>
     </option>
   </component>
@@ -1542,7 +1554,7 @@
       <workItem from="1470572502794" duration="2189000" />
       <workItem from="1470574869516" duration="260000" />
       <workItem from="1470575237257" duration="182000" />
-      <workItem from="1470575494337" duration="24608000" />
+      <workItem from="1470575494337" duration="25442000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed package">
       <created>1470591938903</created>
@@ -1650,7 +1662,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46908000" />
+    <option name="totallyTimeSpent" value="47742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1666,11 +1678,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23908414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23908414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1782,14 +1794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-ui/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-ui/src/app/about/about.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -2102,14 +2106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -2183,16 +2179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -2209,6 +2195,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -2217,31 +2224,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
           <folding>
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudAdminProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

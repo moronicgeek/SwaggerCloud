@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudAdminProperties;
 import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
+import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.Collections;
@@ -35,7 +36,7 @@ public class ApplicationRegistrationService {
     public boolean registerApplication() {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + adminProperties.getApiPath(),
+        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
         adminProperties.getUrl();
 
@@ -47,7 +48,7 @@ public class ApplicationRegistrationService {
 
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + adminProperties.getApiPath(),
+        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
         adminProperties.getUrl();
         return deregistered;

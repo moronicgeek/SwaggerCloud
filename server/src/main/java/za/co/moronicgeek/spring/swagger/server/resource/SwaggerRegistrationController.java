@@ -38,6 +38,22 @@ public class SwaggerRegistrationController {
         return status(HttpStatus.CREATED).body(app);
     }
 
+
+
+    /**
+     * UnRegister an application within this admin application.
+     *
+     * @param app The application infos.
+     * @return The registered application.
+     */
+    @CrossOrigin(origins = "http://localhost:3000")
+    @RequestMapping(value = "/unregister", method = RequestMethod.POST)
+    public ResponseEntity<ApplicationRegistrationMetadata> unregister(@RequestBody ApplicationRegistrationMetadata app) {
+        LOGGER.debug("Register application {}", app.toString());
+        registry.unRegisterApplication(app);
+        return status(HttpStatus.OK).body(app);
+    }
+
     /**
      * Register an application within this admin application.
      *
