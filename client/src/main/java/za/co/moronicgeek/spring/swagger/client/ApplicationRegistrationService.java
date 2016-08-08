@@ -22,7 +22,7 @@ public class ApplicationRegistrationService {
 
     private SwaggerCloudAdminProperties adminProperties;
     private SwaggerCloudClientProperties clientProperties;
-    private final RestTemplate template;
+    private RestTemplate template;
     private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
 
     public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template) {
@@ -34,14 +34,17 @@ public class ApplicationRegistrationService {
     public boolean registerApplication() {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
+        //this will be used some day
         ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
+
         return registrationSuccessful;
     }
 
     public boolean deregisterApplication() {
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
+        //this will be used some day
         ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
         return deregistered;
@@ -56,5 +59,38 @@ public class ApplicationRegistrationService {
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
         return HttpHeaders.readOnlyHttpHeaders(headers);
+    }
+
+
+    public SwaggerCloudAdminProperties getAdminProperties() {
+        return adminProperties;
+    }
+
+    public void setAdminProperties(SwaggerCloudAdminProperties adminProperties) {
+        this.adminProperties = adminProperties;
+    }
+
+    public SwaggerCloudClientProperties getClientProperties() {
+        return clientProperties;
+    }
+
+    public void setClientProperties(SwaggerCloudClientProperties clientProperties) {
+        this.clientProperties = clientProperties;
+    }
+
+    public RestTemplate getTemplate() {
+        return template;
+    }
+
+    public void setTemplate(RestTemplate template) {
+        this.template = template;
+    }
+
+    public static HttpHeaders getHttpHeaders() {
+        return HTTP_HEADERS;
+    }
+
+    public static void setHttpHeaders(HttpHeaders httpHeaders) {
+        HTTP_HEADERS = httpHeaders;
     }
 }

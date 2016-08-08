@@ -1,3 +1,5 @@
+package za.co.moronicgeek.spring.swagger.client.test;
+
 import org.junit.Assert;
 import org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration;
 import org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;

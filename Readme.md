@@ -5,11 +5,13 @@ Swagger Cloud Admin
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1c17f07400bc4dbc9e9bc93861d73bb8)](https://www.codacy.com/app/patel-muhammed/SwaggerCloud?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=moronicgeek/SwaggerCloud&amp;utm_campaign=Badge_Grade)
 
 
-This is a server/client spring boot application. It allows you to quickly implement a document portal in swagger. 
-You may have many instances of your api and register them to the server however only one api will show on the front end as this is meant to be used for your developer environment. 
-It's helpful to have a single source of api documentation. As long as the application has a hosted swagger json file it can be registered on the swagger cloud server.
-This project has no affliation with the spring cloud or swagger projects.
+An API document catalog. This project comprises of a server and client that communicate via rest for registration and document presentation. 
 
+##What it is ?
+It is a document cloud catalog. It catalogs your swagger applications documentation.  
+
+##What it's not?
+It's not an API Manager
  
  
 ##Usage
