@@ -23,7 +23,7 @@ public class ApplicationRegistrationService {
     private SwaggerCloudAdminProperties adminProperties;
     private SwaggerCloudClientProperties clientProperties;
     private final RestTemplate template;
-
+    private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
 
     public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template) {
         this.adminProperties = adminProperties;
@@ -31,34 +31,25 @@ public class ApplicationRegistrationService {
         this.template = template;
     }
 
-    private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
-
     public boolean registerApplication() {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
-        adminProperties.getUrl();
-
-
         return registrationSuccessful;
     }
 
     public boolean deregisterApplication() {
-
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
-        adminProperties.getUrl();
         return deregistered;
     }
-
 
     private ApplicationRegistrationMetadata createMetaDataApplication() {
         return ApplicationRegistrationMetadata.create(clientProperties.getName()).withSwaggerUrl(clientProperties.getSwaggerUrl()).withGroupId(clientProperties.getGroupId()).build();
     }
-
 
     private static HttpHeaders createHttpHeaders() {
         HttpHeaders headers = new HttpHeaders();
