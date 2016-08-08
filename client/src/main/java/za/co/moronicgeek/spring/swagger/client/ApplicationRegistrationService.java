@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * Created by muhammedpatel on 2016/08/06.
- *
+ * <p>
  * This class will register an api with the swager cloud server
  */
 public class ApplicationRegistrationService {
@@ -24,17 +24,18 @@ public class ApplicationRegistrationService {
     private final RestTemplate template;
 
 
-    public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template){
+    public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template) {
         this.adminProperties = adminProperties;
         this.clientProperties = clientProperties;
         this.template = template;
     }
 
     private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
-    public boolean registerApplication(){
+
+    public boolean registerApplication() {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl()+adminProperties.getApiPath(),
+        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + adminProperties.getApiPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
         adminProperties.getUrl();
 
@@ -42,11 +43,11 @@ public class ApplicationRegistrationService {
         return registrationSuccessful;
     }
 
-    public boolean deregisterApplication(){
+    public boolean deregisterApplication() {
 
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl()+adminProperties.getApiPath(),
+        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + adminProperties.getApiPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Map.class);
         adminProperties.getUrl();
         return deregistered;
@@ -54,7 +55,7 @@ public class ApplicationRegistrationService {
 
 
     private ApplicationRegistrationMetadata createMetaDataApplication() {
-        return ApplicationRegistrationMetadata.create(clientProperties.getName()).withSwaggerUrl(clientProperties.getSwaggerUrl()).build();
+        return ApplicationRegistrationMetadata.create(clientProperties.getName()).withSwaggerUrl(clientProperties.getSwaggerUrl()).withGroupId(clientProperties.getGroupId()).build();
     }
 
 

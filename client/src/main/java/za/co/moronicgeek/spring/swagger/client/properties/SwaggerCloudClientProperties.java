@@ -12,6 +12,7 @@ public class SwaggerCloudClientProperties {
     private String adminServerUrl = "http://localhost:4891";
     private String swaggerUrl = "http://localhost:9384/swagger.json";
     private String name = "";
+    private String groupId = "";
 
     @Autowired
     private ServerProperties server;
@@ -19,6 +20,13 @@ public class SwaggerCloudClientProperties {
     private Integer serverPort;
 
 
+    public String getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(String groupId) {
+        this.groupId = groupId;
+    }
 
     public String getSwaggerUrl() {
         return swaggerUrl;
