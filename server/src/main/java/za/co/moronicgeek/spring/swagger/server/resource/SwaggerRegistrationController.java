@@ -75,7 +75,7 @@ public class SwaggerRegistrationController {
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
-    @RequestMapping(value = "/api/size", method = RequestMethod.GET)
+    @RequestMapping(value = "/size", method = RequestMethod.GET)
     public ResponseEntity<String> size() {
         LOGGER.debug("It's all a test " );
 
@@ -90,7 +90,7 @@ public class SwaggerRegistrationController {
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
-    @RequestMapping(value = "/api/sizeof/{groupId}", method = RequestMethod.GET)
+    @RequestMapping(value = "/sizeof/{groupId}", method = RequestMethod.GET)
     public ResponseEntity<String> size(@PathVariable String groupId) {
         LOGGER.debug("It's all a test " );
 
@@ -104,7 +104,7 @@ public class SwaggerRegistrationController {
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
-    @RequestMapping(value = "/api/all", method = RequestMethod.GET)
+    @RequestMapping(value = "/all", method = RequestMethod.GET)
     public @ResponseBody ResponseEntity<List<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
         LOGGER.debug("Retrieving all registered application" );
         return ResponseEntity.ok(registry.getAllBeans());

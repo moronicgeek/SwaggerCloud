@@ -6,3 +6,4 @@ typings/
 npm-debug.log
 .DS_Store
 
+/server-ui/dist/
