@@ -2,90 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/about/about.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/about/about.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/about/about.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/app.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.routes.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/app.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/shared/github.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/shared/github.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/github/shared/swagger.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/shared/swagger.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/print.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/print.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/reset.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/screen.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/screen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/style.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/css/typography.css" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/typography.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/index.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/o2c.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/o2c.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/swagger-ui.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/swagger-ui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/dist/swagger-ui.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/swagger-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/fonts/DroidSans-Bold.ttf" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/fonts/DroidSans-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/fonts/DroidSans.ttf" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/fonts/DroidSans.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/collapse.gif" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/collapse.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/expand.gif" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/expand.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/explorer_icons.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/explorer_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon-16x16.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon-16x16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon-32x32.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon-32x32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/favicon.ico" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/logo_small.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/logo_small.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/pet_store_api.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/pet_store_api.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/throbber.gif" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/throbber.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/images/wordnik_api.png" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/wordnik_api.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/en.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/es.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/fr.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/geo.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/geo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/it.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ja.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ko-kr.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ko-kr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/pl.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/pt.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/ru.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/tr.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/translator.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/translator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lang/zh-cn.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/backbone-min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/backbone-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/es5-shim.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/es5-shim.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/handlebars-2.0.0.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/handlebars-2.0.0.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/highlight.9.1.0.pack.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/highlight.9.1.0.pack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/highlight.9.1.0.pack_extended.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/highlight.9.1.0.pack_extended.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery-1.8.0.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery-1.8.0.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.ba-bbq.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.ba-bbq.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.slideto.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.slideto.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jquery.wiggle.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.wiggle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/js-yaml.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/js-yaml.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/jsoneditor.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jsoneditor.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/lodash.min.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/lodash.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/marked.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/marked.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/object-assign-pollyfill.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/object-assign-pollyfill.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/app/swagger-ui/lib/swagger-oauth.js" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/swagger-oauth.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/custom-typings.d.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/custom-typings.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/favicon.ico" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/index.html" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/polyfills.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/polyfills.browser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/vendor.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main/resources/vendor.browser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/test/java/RegistryTest.java" afterPath="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/about/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/server-ui.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/shared/swagger.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.ts" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.css" afterPath="$PROJECT_DIR$/server-ui/src/app/about/about.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/about/about.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/about/about.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.html" afterPath="$PROJECT_DIR$/server-ui/src/app/app.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.routes.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/app.routes.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/app.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/app.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.css" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.html" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-browser/repo-browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.css" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.html" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-detail/repo-detail.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-detail/repo-detail.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.css" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.html" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/repo-list/repo-list.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/github/repo-list/repo-list.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/github/shared/github.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/github/shared/github.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/home/home.css" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/print.css" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/css/print.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/reset.css" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/css/reset.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/screen.css" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/css/screen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/style.css" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/css/typography.css" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/css/typography.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/index.html" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/o2c.html" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/o2c.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/swagger-ui.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/swagger-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/swagger-ui.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/swagger-ui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/fonts/DroidSans-Bold.ttf" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/fonts/DroidSans-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/fonts/DroidSans.ttf" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/fonts/DroidSans.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/collapse.gif" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/collapse.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/expand.gif" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/expand.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/explorer_icons.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/explorer_icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon-16x16.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/favicon-16x16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon-32x32.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/favicon-32x32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/favicon.ico" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/logo_small.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/logo_small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/pet_store_api.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/pet_store_api.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/throbber.gif" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/throbber.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/images/wordnik_api.png" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/images/wordnik_api.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/en.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/es.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/fr.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/geo.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/geo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/it.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ja.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ko-kr.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/ko-kr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/pl.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/pt.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/pt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/ru.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/tr.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/translator.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/translator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/zh-cn.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lang/zh-cn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/backbone-min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/backbone-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/es5-shim.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/es5-shim.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/handlebars-2.0.0.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/handlebars-2.0.0.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/highlight.9.1.0.pack.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/highlight.9.1.0.pack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/highlight.9.1.0.pack_extended.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/highlight.9.1.0.pack_extended.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery-1.8.0.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/jquery-1.8.0.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.ba-bbq.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/jquery.ba-bbq.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.slideto.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/jquery.slideto.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jquery.wiggle.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/jquery.wiggle.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/js-yaml.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/js-yaml.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/jsoneditor.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/jsoneditor.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/lodash.min.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/lodash.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/marked.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/marked.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/object-assign-pollyfill.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/object-assign-pollyfill.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/swagger-oauth.js" afterPath="$PROJECT_DIR$/server-ui/swagger-ui/lib/swagger-oauth.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/custom-typings.d.ts" afterPath="$PROJECT_DIR$/server-ui/src/custom-typings.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/favicon.ico" afterPath="$PROJECT_DIR$/server-ui/src/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/index.html" afterPath="$PROJECT_DIR$/server-ui/src/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main.browser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/polyfills.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/polyfills.browser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server-ui/src/main/resources/vendor.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/vendor.browser.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" afterPath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/README.md" afterPath="$PROJECT_DIR$/server-ui/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/package.json" afterPath="$PROJECT_DIR$/server-ui/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/pom.xml" afterPath="$PROJECT_DIR$/server-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/server-ui.iml" afterPath="$PROJECT_DIR$/server-ui/server-ui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/tsconfig.json" afterPath="$PROJECT_DIR$/server-ui/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/typings.json" afterPath="$PROJECT_DIR$/server-ui/typings.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/webpack.config.js" afterPath="$PROJECT_DIR$/server-ui/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,90 +122,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="polyfills.browser.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/polyfills.browser.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="e#797#826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendor.browser.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/vendor.browser.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#25#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.browser.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="402">
+              <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringSwaggerCloudServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
+            <state relative-caret-position="566">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwaggerCloudProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/swagger-ui/css/print.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/README.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,21 +217,9 @@
       <file leaf-file-name="SwaggerAdminClientAutoConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="165">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/typings/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -251,10 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/clients/pom.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerCloudAdminProperties.java" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/RegistrationApplicationListener.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/ApplicationRegistrationMetadata.java" />
@@ -289,18 +280,22 @@
         <option value="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/test/ConfigurationTest.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server-ui/package.json" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/server-ui/webpack.config.js" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" />
         <option value="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts" />
+        <option value="$PROJECT_DIR$/server-ui/webpack.config.js" />
+        <option value="$PROJECT_DIR$/server-ui/dist/index.html" />
+        <option value="$PROJECT_DIR$/server-ui/src/main/resources/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/server-ui/src/main/resources/app/app.html" />
+        <option value="$PROJECT_DIR$/server-ui/package.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/server-ui/pom.xml" />
       </list>
     </option>
@@ -397,50 +392,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSwaggerAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -487,7 +438,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/spring-boot-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular2-seed-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -498,21 +449,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server-ui/swagger-ui" />
+      <recent name="$PROJECT_DIR$/server-ui" />
       <recent name="$PROJECT_DIR$/server-ui/src/main/resources" />
       <recent name="$PROJECT_DIR$/server-ui/src" />
       <recent name="$PROJECT_DIR$/server-ui/src/app/main/resources" />
-      <recent name="$PROJECT_DIR$/server-ui/src/app" />
-      <recent name="$PROJECT_DIR$/server-ui/src/swagger-ui" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="za.co.moronicgeek.spring.swagger.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server-ui/swagger-ui" />
+      <recent name="$PROJECT_DIR$/server-ui/dist" />
+      <recent name="$PROJECT_DIR$/server-ui" />
       <recent name="$PROJECT_DIR$/server-ui/src/swagger-ui" />
       <recent name="$PROJECT_DIR$/samples/server" />
-      <recent name="$PROJECT_DIR$/samples/clients/san/src" />
-      <recent name="$PROJECT_DIR$/samples/clients/ni/src/main" />
-      <recent name="$PROJECT_DIR$/samples/clients/ichi/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="za.co.discovery.spring.swagger.client" />
@@ -522,7 +473,7 @@
       <recent name="za.co.discovery.spring.swagger.server" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationRegistrationServiceTest.test">
+  <component name="RunManager" selected="JUnit.RegistryTest.testAddToExistingGroup">
     <configuration default="false" name="SanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -541,27 +492,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="san" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegistryTest.testAddToRegistry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="server" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="za.co.moronicgeek.spring.swagger.server" />
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.server.RegistryTest" />
-      <option name="METHOD_NAME" value="testAddToRegistry" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="RegistryTest.testAddToRegistryException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -613,6 +543,32 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApplicationRegistrationServiceTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegistryTest.testAddToExistingGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.co.moronicgeek.spring.swagger.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.co.moronicgeek.spring.swagger.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.server.RegistryTest" />
+      <option name="METHOD_NAME" value="testAddToExistingGroup" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1133,18 +1089,18 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServerApplication" />
       <item index="5" class="java.lang.String" itemvalue="npm.Start UI" />
       <item index="6" class="java.lang.String" itemvalue="Application.SanApplication" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistry" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistryException" />
-      <item index="9" class="java.lang.String" itemvalue="Application.ServerApplication" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationServiceTest.test" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistryException" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ServerApplication" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationServiceTest.test" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToExistingGroup" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationServiceTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SanApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ServerApplication" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistryException" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistry" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToExistingGroup" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationServiceTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SanApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ServerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RegistryTest.testAddToRegistryException" />
       </list>
     </recent_temporary>
   </component>
@@ -1166,7 +1122,7 @@
       <workItem from="1470572502794" duration="2189000" />
       <workItem from="1470574869516" duration="260000" />
       <workItem from="1470575237257" duration="182000" />
-      <workItem from="1470575494337" duration="35225000" />
+      <workItem from="1470575494337" duration="40688000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed package">
       <created>1470591938903</created>
@@ -1259,7 +1215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1470701104440</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixes for code quality">
+      <created>1470704525668</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1470704525668</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixes for code quality">
+      <created>1470704750345</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1470704750345</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1269,9 +1239,6 @@
     <history-entry file="ApplicationRegistrationServiceTest_test - 2016.08.09 at 00h 08m 15s.xml">
       <configuration name="ApplicationRegistrationServiceTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistryTest_testAddToExistingGroup - 2016.08.08 at 22h 37m 41s.xml">
-      <configuration name="RegistryTest.testAddToExistingGroup" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegistryTest_testAddToExistingGroup - 2016.08.08 at 22h 40m 16s.xml">
       <configuration name="RegistryTest.testAddToExistingGroup" configurationId="JUnit" />
     </history-entry>
@@ -1279,6 +1246,9 @@
       <configuration name="RegistryTest.testAddToExistingGroup" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegistryTest_testAddToExistingGroup - 2016.08.08 at 22h 40m 27s.xml">
+      <configuration name="RegistryTest.testAddToExistingGroup" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegistryTest_testAddToExistingGroup - 2016.08.09 at 17h 08m 12s.xml">
       <configuration name="RegistryTest.testAddToExistingGroup" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegistryTest_testAddToRegistry - 2016.08.08 at 22h 48m 09s.xml">
@@ -1295,7 +1265,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57525000" />
+    <option name="totallyTimeSpent" value="62988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1315,10 +1285,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23908414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1330,6 +1299,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1393,6 +1363,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Fixed package" />
     <MESSAGE value="A whole lot of initial fixes" />
     <MESSAGE value="Added travis.yml&#10;" />
@@ -1404,7 +1376,8 @@
     <MESSAGE value="Fleshed out the Registry and Registry tests" />
     <MESSAGE value="A couple more fixes" />
     <MESSAGE value="Added before_install&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added before_install&#10;" />
+    <MESSAGE value="Fixes for code quality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes for code quality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1415,11 +1388,17 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server-ui/src/main/resources/app/app.routes.ts</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1428,96 +1407,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lang/es.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/marked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2805">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/lib/swagger-oauth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/swagger-ui/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/annotation/EnableSwaggerCloud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="2121" column="32" selection-start-line="2121" selection-start-column="17" selection-end-line="2121" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="231" column="70" selection-start-line="231" selection-start-column="70" selection-end-line="231" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/handler/PrefixHandlerMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1684,17 +1573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1735,34 +1613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/dist/vendor.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/dist/main.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6821">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1775,67 +1629,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-ui/typings/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/polyfills.browser.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#797#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/vendor.browser.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,14 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1863,12 +1653,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/node_modules/@angular/platform-browser-dynamic/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/dist/vendor.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/dist/main.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="402" column="49" selection-start-line="402" selection-start-column="46" selection-end-line="402" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="165">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/dist/index.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/custom-typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/polyfills.browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/vendor.browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/main/resources/main.browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/swagger-ui/css/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
@@ -1876,8 +1848,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
           <folding />
         </state>
       </provider>

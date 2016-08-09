@@ -9,7 +9,6 @@ import {RepoDetail} from './github/repo-detail/repo-detail';
 const routes: RouterConfig = [
   { path: '', redirectTo: 'home', terminal: true },
   { path: 'home', component: Home },
-  {path:'swagger', redirectTo: 'http://localhost:3000/dfiasu.dsf'},
   { path: 'about', component: About },
   { path: 'github', component: RepoBrowser, children: [
     { path: ':org', component: RepoList, children: [

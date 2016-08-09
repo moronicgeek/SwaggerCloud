@@ -1,30 +1,30 @@
-var webpack = require("webpack");
-var path = require("path");
+var webpack = require('webpack');
+var path = require('path');
 
 
 // Webpack Config
 var webpackConfig = {
   entry: {
-    "polyfills": "./src/main/resources/polyfills.browser.ts",
-    "vendor":    "./src/main/resources/vendor.browser.ts",
-    "main":       "./src/main/resources/main.browser.ts",
+    'polyfills': './src/polyfills.browser.ts',
+    'vendor':    './src/vendor.browser.ts',
+    'main':       './src/main.browser.ts',
   },
 
   output: {
-    path: "./dist",
+    path: './dist',
   },
 
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(true),
-    new webpack.optimize.CommonsChunkPlugin({ name: ["main", "vendor", "polyfills"], minChunks: Infinity }),
+    new webpack.optimize.CommonsChunkPlugin({ name: ['main', 'vendor', 'polyfills'], minChunks: Infinity }),
   ],
 
   module: {
     loaders: [
       // .ts files for TypeScript
-      { test: /\.ts$/, loaders: ["awesome-typescript-loader", "angular2-template-loader"] },
-      { test: /\.css$/, loaders: ["to-string-loader", "css-loader"] },
-      { test: /\.html$/, loader: "raw-loader" }
+      { test: /\.ts$/, loaders: ['awesome-typescript-loader', 'angular2-template-loader'] },
+      { test: /\.css$/, loaders: ['to-string-loader', 'css-loader'] },
+      { test: /\.html$/, loader: 'raw-loader' }
     ]
   }
 
@@ -33,18 +33,18 @@ var webpackConfig = {
 
 // Our Webpack Defaults
 var defaultConfig = {
-  devtool: "cheap-module-source-map",
+  devtool: 'cheap-module-source-map',
   cache: true,
   debug: true,
   output: {
-    filename: "[name].bundle.js",
-    sourceMapFilename: "[name].map",
-    chunkFilename: "[id].chunk.js"
+    filename: '[name].bundle.js',
+    sourceMapFilename: '[name].map',
+    chunkFilename: '[id].chunk.js'
   },
 
   resolve: {
-    root: [ path.join(__dirname, "src") ],
-    extensions: ["", ".ts", ".js"]
+    root: [ path.join(__dirname, 'src') ],
+    extensions: ['', '.ts', '.js']
   },
 
   devServer: {
@@ -54,7 +54,7 @@ var defaultConfig = {
 
   node: {
     global: 1,
-    crypto: "empty",
+    crypto: 'empty',
     module: 0,
     Buffer: 0,
     clearImmediate: 0,
@@ -62,5 +62,5 @@ var defaultConfig = {
   }
 };
 
-var webpackMerge = require("webpack-merge");
+var webpackMerge = require('webpack-merge');
 module.exports = webpackMerge(defaultConfig, webpackConfig);

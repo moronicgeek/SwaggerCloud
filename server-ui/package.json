@@ -1,7 +1,7 @@
 {
-  "name": "swagger-cloud",
+  "name": "angular2-seed",
   "version": "1.0.0",
-  "description": "Front end angular dependency",
+  "description": "A simple starter Angular2 project",
   "scripts": {
     "typings-install": "typings install",
     "postinstall": "npm run typings-install",
@@ -11,8 +11,8 @@
     "start": "npm run server"
   },
   "contributors": [
-    "Muhammed Patel <patel.muhammed@gmail.com>"
-
+    "Rob Wormald <robwormald@gmail.com>",
+    "PatrickJS <github@gdi2290.com>"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -48,10 +48,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moronicgeek/SwaggerCloud.git"
+    "url": "git+https://github.com/angular/angular2-seed.git"
   },
   "bugs": {
-    "url": "https://github.com/moronicgeek/SwaggerCloud/issues"
+    "url": "https://github.com/angular/angular2-seed/issues"
   },
-  "homepage": "https://github.com/moronicgeek/SwaggerCloud#readme"
+  "homepage": "https://github.com/angular/angular2-seed#readme"
 }
