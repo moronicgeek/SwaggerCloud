@@ -19,7 +19,7 @@ import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProp
 @EnableConfigurationProperties({SwaggerCloudAdminProperties.class, SwaggerCloudClientProperties.class})
 public class SwaggerAdminClientAutoConfiguration {
 
-    private ApplicationContext context;
+
 
     @Autowired
     private SwaggerCloudClientProperties clientProperties;

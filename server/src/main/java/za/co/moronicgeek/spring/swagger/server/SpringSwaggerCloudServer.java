@@ -41,14 +41,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     private ApplicationContext applicationContext;
 
-    @Autowired
-    private ApplicationEventPublisher publisher;
 
-    @Autowired
-    private ResourcePatternResolver resourcePatternResolver;
-
-    @Autowired
-    private RestTemplateBuilder builder;
 
 
     @Override

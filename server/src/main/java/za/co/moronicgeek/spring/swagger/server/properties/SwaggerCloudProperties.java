@@ -10,7 +10,6 @@ public class SwaggerCloudProperties {
 
     private String server ="localhost";
     private int port = 8080;
-    private String url = "swaggercloud/register";
 
     public String getServer() {
         return server;

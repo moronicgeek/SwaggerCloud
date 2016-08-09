@@ -1,3 +1,5 @@
+package za.co.moronicgeek.spring.swagger.server;
+
 import org.hamcrest.core.Is;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +12,7 @@ import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 public class RegistryTest {
 
 
-    Registry registry = new Registry();
+    private Registry registry = new Registry();
 
 
     public void initiliase() {
@@ -98,12 +100,12 @@ public class RegistryTest {
         Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(2));
         ApplicationRegistrationMetadata meta = registry.getMetadataByGroupId("za.co.moronicgeek.api4");
 
-        ApplicationRegistrationMetadata metadata = new ApplicationRegistrationMetadata();
-        metadata4.setId(4);
-        metadata4.setName("API4");
-        metadata4.setGroupId("za.co.moronicgeek.api4");
-        metadata4.setSwaggerUrl("Dont care");
-        registry.unRegisterApplication(metadata4);
+        ApplicationRegistrationMetadata metadata2 = new ApplicationRegistrationMetadata();
+        metadata2.setId(4);
+        metadata2.setName("API4");
+        metadata2.setGroupId("za.co.moronicgeek.api4");
+        metadata2.setSwaggerUrl("Dont care");
+        registry.unRegisterApplication(metadata2);
         Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(1));
 
     }
