@@ -6,10 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.ResourcePatternResolver;
@@ -17,10 +15,12 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.util.StringUtils;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
 import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
+import za.co.moronicgeek.spring.swagger.server.resolvers.resource.PreferMinifiedFilteringResourceResolver;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 
 import java.util.List;
@@ -40,6 +40,9 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     private ServerProperties server;
 
     private ApplicationContext applicationContext;
+
+    @Autowired
+    private ResourcePatternResolver resourcePatternResolver;
 
 
 
@@ -75,6 +78,16 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     @ConditionalOnMissingBean
     public SwaggerCloudProperties adminServerProperties() {
         return new SwaggerCloudProperties();
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/**")
+                .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
+
+
+
+
     }
 
     @Override

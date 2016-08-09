@@ -26,6 +26,14 @@
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
     </dependency>
+
+    <dependency>
+        <groupId>za.co.moronicgeek.spring</groupId>
+        <artifactId>server-ui</artifactId>
+        <version>${project.version}</version>
+    </dependency>
+
+
 </dependencies>
 
 </project>
