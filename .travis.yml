@@ -2,6 +2,3 @@ language: java
 jdk:
   - oraclejdk8
 
-before_install:
- - npm install @angular/http @angular/common @angular/compiler @angular/core @angular/http @angular/platform-browser @angular/platform-browser-dynamic @angular/router
- - sudo apt-get update
