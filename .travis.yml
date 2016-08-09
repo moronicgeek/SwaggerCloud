@@ -9,7 +9,7 @@ before_script:
   - npm install -g angular-cli
   - npm install -g karma
   - npm install
-  - ng build
+  - npm install -g npm
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
