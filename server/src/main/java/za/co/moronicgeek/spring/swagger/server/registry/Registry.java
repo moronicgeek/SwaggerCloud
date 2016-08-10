@@ -40,6 +40,9 @@ public class Registry {
     }
 
 
+
+
+
     public int size (){
         return registry.size();
     }

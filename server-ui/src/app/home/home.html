@@ -1,2 +1,32 @@
-<h3>Home Component</h3>
-<p>Welcome to Angular Seed</p>
+
+<p>Below are a list of all registered Apis</p>
+<div id="mainbox">
+
+
+    <span *ngFor="let repo of repoDetails">
+
+     <div class="card" *ngFor="let more of repo">
+
+        <img src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16"
+      alt=""/>
+        <h1>{{more.name}}</h1>
+        <p>{{more.swaggerUrl}}</p>
+    </div>
+
+
+
+    </span>
+
+
+
+
+</div>
+
+
+<alert dismissOnTimeout="3000">This alert will dismiss in 3s</alert>
+
+<button type="button" class="btn btn-primary"
+        btnCheckboxTrue="1" btnCheckboxFalse="0">
+    Single Toggle
+</button>
+

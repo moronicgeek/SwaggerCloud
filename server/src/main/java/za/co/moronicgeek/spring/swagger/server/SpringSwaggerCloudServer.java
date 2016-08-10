@@ -20,8 +20,9 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
 import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
-import za.co.moronicgeek.spring.swagger.server.resolvers.resource.PreferMinifiedFilteringResourceResolver;
+import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
+import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.List;
 
@@ -43,8 +44,6 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Autowired
     private ResourcePatternResolver resourcePatternResolver;
-
-
 
 
     @Override
@@ -84,8 +83,8 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
-
-
+        registry.addResourceHandler("/swagger-ui/**")
+                .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
 
 
     }
@@ -110,7 +109,46 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     }
 
     @Bean
-    public SwaggerRegistrationController registrationController(){
+    public Registry registry(){
+        Registry registry  = new Registry();
+
+        ApplicationRegistrationMetadata metadata = new ApplicationRegistrationMetadata();
+        metadata.setId(1);
+        metadata.setName("API1");
+        metadata.setGroupId("za.co.moronicgeek.api1");
+        metadata.setSwaggerUrl("Dont care");
+
+        registry.addApi(metadata);
+
+        ApplicationRegistrationMetadata metadata2 = new ApplicationRegistrationMetadata();
+        metadata2.setId(2);
+        metadata2.setName("API2");
+        metadata2.setGroupId("za.co.moronicgeek.api2");
+        metadata2.setSwaggerUrl("Dont care");
+
+        registry.addApi(metadata2);
+
+
+        ApplicationRegistrationMetadata metadata3 = new ApplicationRegistrationMetadata();
+        metadata3.setId(3);
+        metadata3.setName("API3");
+        metadata3.setGroupId("za.co.moronicgeek.api3");
+        metadata3.setSwaggerUrl("Dont care");
+
+        registry.addApi(metadata3);
+
+        ApplicationRegistrationMetadata metadata4 = new ApplicationRegistrationMetadata();
+        metadata4.setId(4);
+        metadata4.setName("API4");
+        metadata4.setGroupId("za.co.moronicgeek.api4");
+        metadata4.setSwaggerUrl("Dont care");
+
+        registry.addApi(metadata4);
+        return  registry;
+    }
+
+    @Bean
+    public SwaggerRegistrationController registrationController() {
         return new SwaggerRegistrationController();
     }
 }

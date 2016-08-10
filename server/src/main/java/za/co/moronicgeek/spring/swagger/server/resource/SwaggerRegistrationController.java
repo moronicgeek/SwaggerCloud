@@ -2,6 +2,7 @@ package za.co.moronicgeek.spring.swagger.server.resource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,8 +19,8 @@ import static org.springframework.http.ResponseEntity.status;
 @ResponseBody
 public class SwaggerRegistrationController {
 
-
-    private Registry registry = new Registry();
+    @Autowired
+    private Registry registry;
     private static final Logger LOGGER = LoggerFactory.getLogger(SwaggerRegistrationController.class);
 
 
@@ -109,4 +110,6 @@ public class SwaggerRegistrationController {
         LOGGER.debug("Retrieving all registered application" );
         return ResponseEntity.ok(registry.getAllBeans());
     }
+
+
 }
