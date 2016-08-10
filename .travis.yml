@@ -4,14 +4,14 @@ jdk:
 
 before_script:
   - sudo apt-get update
-  - sudo apt-get install nodejs
-  - sudo apt-get install npm
+  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  - sudo apt-get install -y nodejs
+
+
   - npm install -g angular-cli
   - npm install -g karma
   - npm install -g npm
   - npm install
-  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-  - sudo apt-get install -y nodejs
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
