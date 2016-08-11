@@ -91,7 +91,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        String contextPath = "/test";
+        String contextPath = "/";
         if (StringUtils.hasText(contextPath)) {
             registry.addRedirectViewController(contextPath,
                     server.getPath(contextPath) + "/");
