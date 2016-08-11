@@ -1,2 +1,5 @@
-node_modules/* linguist-vendored
-src/app/swagger-ui/* linguist-vendored
+/server-ui/node_modules/* linguist-vendored
+/server-ui/src/app/swagger-ui/* linguist-vendored
+
+server-ui/node_modules/* linguist-vendored
+server-ui/src/app/swagger-ui/* linguist-vendored
