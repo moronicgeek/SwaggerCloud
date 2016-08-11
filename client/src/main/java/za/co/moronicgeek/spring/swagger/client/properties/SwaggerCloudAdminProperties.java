@@ -15,7 +15,7 @@ public class SwaggerCloudAdminProperties {
     /**
      * The admin rest-apis path.
      */
-    private String apiPath = "/test/register/";
+    private String apiPath = "/swaggercloud/register/";
 
 
     public String getUrl() {

@@ -109,8 +109,8 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     }
 
     @Bean
-    public Registry registry(){
-        Registry registry  = new Registry();
+    public Registry registry() {
+        Registry registry = new Registry();
 
         ApplicationRegistrationMetadata metadata = new ApplicationRegistrationMetadata();
         metadata.setId(1);
@@ -144,7 +144,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
         metadata4.setSwaggerUrl("Dont care");
 
         registry.addApi(metadata4);
-        return  registry;
+        return registry;
     }
 
     @Bean

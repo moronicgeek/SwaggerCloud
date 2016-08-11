@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("spring.swagger.cloud")
 public class SwaggerCloudProperties {
 
-    private String server ="localhost";
+    private String server = "localhost";
     private int port = 8080;
 
     public String getServer() {

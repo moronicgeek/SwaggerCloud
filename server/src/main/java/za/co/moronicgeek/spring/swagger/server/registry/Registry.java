@@ -16,73 +16,67 @@ public class Registry {
     private static Logger LOGGER = LoggerFactory.getLogger(Registry.class);
     private ConcurrentHashMap<String, Set<ApplicationRegistrationMetadata>> registry = new ConcurrentHashMap<>();
 
-    public boolean addApi(ApplicationRegistrationMetadata metadata){
+    public boolean addApi(ApplicationRegistrationMetadata metadata) {
         Assert.notNull(metadata);
         Assert.notNull(metadata.getGroupId());
         Assert.notNull(metadata.getSwaggerUrl());
 
         Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(metadata.getGroupId());
-        if (swaggerGroup == null){
+        if (swaggerGroup == null) {
             Set<ApplicationRegistrationMetadata> set = new HashSet<ApplicationRegistrationMetadata>();
             set.add(metadata);
-            registry.put(metadata.getGroupId(),set);
+            registry.put(metadata.getGroupId(), set);
 
-        }else{
+        } else {
             swaggerGroup.add(metadata);
         }
-        LOGGER.info("Added Api to Registry {}" , metadata);
+        LOGGER.info("Added Api to Registry {}", metadata);
         return true;
     }
 
-    public List<ApplicationRegistrationMetadata> getAllBeans(){
+    public List<ApplicationRegistrationMetadata> getAllBeans() {
         Enumeration enumeration = registry.elements();
         return Collections.list(enumeration);
     }
 
 
-
-
-
-    public int size (){
+    public int size() {
         return registry.size();
     }
 
-    public int sizeOf(String groupId){
+    public int sizeOf(String groupId) {
         Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(groupId);
-        if (swaggerGroup != null){
+        if (swaggerGroup != null) {
             return swaggerGroup.size();
-        }else{
+        } else {
             return 0;
         }
 
     }
 
-    public ApplicationRegistrationMetadata getMetadataByGroupId(String groupId){
+    public ApplicationRegistrationMetadata getMetadataByGroupId(String groupId) {
 
         Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(groupId);
-        if (swaggerGroup != null){
+        if (swaggerGroup != null) {
 
             return swaggerGroup.iterator().next();
         }
         return null;
     }
 
-    public boolean unRegisterApplication(ApplicationRegistrationMetadata metadata){
+    public boolean unRegisterApplication(ApplicationRegistrationMetadata metadata) {
 
         Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(metadata.getGroupId());
 
-        if (swaggerGroup != null){
+        if (swaggerGroup != null) {
             swaggerGroup.remove(metadata);
-            if (swaggerGroup.size() == 0){
+            if (swaggerGroup.size() == 0) {
                 registry.remove(metadata.getGroupId());
             }
         }
-        LOGGER.info("Application deregistration complete {}" , metadata);
+        LOGGER.info("Application deregistration complete {}", metadata);
         return true;
     }
-
-
-
 
 
 }

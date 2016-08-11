@@ -6,17 +6,19 @@
 
 
 
-     <div  class="col-md-4" *ngFor="let more of repo">
+     <div  class="col-md-4" *ngFor="let more of repo ">
 
 
 
     <div class="panel panel-success">
+
         <div class="panel-heading">
-            <h3 class="panel-title">{{more.name}}</h3>
+           <h3 class="panel-title"><i class="glyphicon glyphicon glyphicon-dashboard" aria-hidden="true"></i> {{more.name}}</h3>
         </div>
         <div class="panel-body">
-          {{more.swaggerUrl}}
-             <a href="http://localhost:8084/swagger-ui/index.html?url={{more.swaggerUrl}}"><h1>{{more.name}}</h1></a>
+
+         Group Id :  {{more.groupId}}
+             <a href="http://localhost:8084/swagger-ui/index.html?url={{more.swaggerUrl}}"><h1>Swagger Docs</h1></a>
         </div>
     </div>
 

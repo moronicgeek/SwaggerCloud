@@ -20,15 +20,30 @@ import java.util.Map;
  */
 public class ApplicationRegistrationService {
 
+    private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
     private SwaggerCloudAdminProperties adminProperties;
     private SwaggerCloudClientProperties clientProperties;
     private RestTemplate template;
-    private static HttpHeaders HTTP_HEADERS = createHttpHeaders();
 
     public ApplicationRegistrationService(SwaggerCloudClientProperties clientProperties, SwaggerCloudAdminProperties adminProperties, RestTemplate template) {
         this.adminProperties = adminProperties;
         this.clientProperties = clientProperties;
         this.template = template;
+    }
+
+    private static HttpHeaders createHttpHeaders() {
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+        return HttpHeaders.readOnlyHttpHeaders(headers);
+    }
+
+    public static HttpHeaders getHttpHeaders() {
+        return HTTP_HEADERS;
+    }
+
+    public static void setHttpHeaders(HttpHeaders httpHeaders) {
+        HTTP_HEADERS = httpHeaders;
     }
 
     public boolean registerApplication() {
@@ -54,14 +69,6 @@ public class ApplicationRegistrationService {
         return ApplicationRegistrationMetadata.create(clientProperties.getName()).withSwaggerUrl(clientProperties.getSwaggerUrl()).withGroupId(clientProperties.getGroupId()).build();
     }
 
-    private static HttpHeaders createHttpHeaders() {
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
-        return HttpHeaders.readOnlyHttpHeaders(headers);
-    }
-
-
     public SwaggerCloudAdminProperties getAdminProperties() {
         return adminProperties;
     }
@@ -84,13 +91,5 @@ public class ApplicationRegistrationService {
 
     public void setTemplate(RestTemplate template) {
         this.template = template;
-    }
-
-    public static HttpHeaders getHttpHeaders() {
-        return HTTP_HEADERS;
-    }
-
-    public static void setHttpHeaders(HttpHeaders httpHeaders) {
-        HTTP_HEADERS = httpHeaders;
     }
 }

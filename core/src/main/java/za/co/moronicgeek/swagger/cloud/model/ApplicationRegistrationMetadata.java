@@ -23,15 +23,15 @@ public class ApplicationRegistrationMetadata {
         this.groupId = builder.groupId;
     }
 
-    public ApplicationRegistrationMetadata(){
+    public ApplicationRegistrationMetadata() {
 
     }
 
     @JsonCreator
     public static ApplicationRegistrationMetadata fromJson(@JsonProperty("id") int id,
-                                       @JsonProperty("name") String name,
-                                       @JsonProperty("swaggerUrl") String swaggerUrl,
-                                                           @JsonProperty("groupId")String groupId){
+                                                           @JsonProperty("name") String name,
+                                                           @JsonProperty("swaggerUrl") String swaggerUrl,
+                                                           @JsonProperty("groupId") String groupId) {
 
         Builder builder = create(name).withId(id).withName(name).withSwaggerUrl(swaggerUrl).withGroupId(groupId);
 
@@ -39,59 +39,13 @@ public class ApplicationRegistrationMetadata {
     }
 
 
-    public static Builder create(ApplicationRegistrationMetadata bean){
+    public static Builder create(ApplicationRegistrationMetadata bean) {
         return new Builder(bean);
     }
-    public static Builder create(String name){
+
+    public static Builder create(String name) {
         return new Builder(name);
     }
-
-    public static class Builder {
-        private int id;
-        private String name;
-        private String swaggerUrl;
-        private String groupId;
-
-        private Builder(ApplicationRegistrationMetadata bean){
-            this.id  = bean.getId();
-            this.name = bean.getName();
-            this.swaggerUrl = bean.getSwaggerUrl();
-            this.groupId = bean.getGroupId();
-        }
-
-        private Builder(String name){
-
-            this.name = name;
-        }
-
-
-       public Builder withId(int id){
-           this.id = id;
-           return this;
-       }
-       public Builder withName(String name){
-           this.name = name;
-           return this;
-       }
-
-       public Builder withSwaggerUrl(String swaggerUrl){
-           this.swaggerUrl = swaggerUrl;
-           return this;
-       }
-
-
-       public Builder withGroupId(String groupId){
-           this.groupId = groupId;
-           return this;
-       }
-
-        public ApplicationRegistrationMetadata build() {
-            return new ApplicationRegistrationMetadata(this);
-        }
-
-
-    }
-
 
     public int getId() {
         return id;
@@ -149,5 +103,52 @@ public class ApplicationRegistrationMetadata {
                 ", swaggerUrl='" + swaggerUrl + '\'' +
                 ", groupId='" + groupId + '\'' +
                 '}';
+    }
+
+    public static class Builder {
+        private int id;
+        private String name;
+        private String swaggerUrl;
+        private String groupId;
+
+        private Builder(ApplicationRegistrationMetadata bean) {
+            this.id = bean.getId();
+            this.name = bean.getName();
+            this.swaggerUrl = bean.getSwaggerUrl();
+            this.groupId = bean.getGroupId();
+        }
+
+        private Builder(String name) {
+
+            this.name = name;
+        }
+
+
+        public Builder withId(int id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder withName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public Builder withSwaggerUrl(String swaggerUrl) {
+            this.swaggerUrl = swaggerUrl;
+            return this;
+        }
+
+
+        public Builder withGroupId(String groupId) {
+            this.groupId = groupId;
+            return this;
+        }
+
+        public ApplicationRegistrationMetadata build() {
+            return new ApplicationRegistrationMetadata(this);
+        }
+
+
     }
 }

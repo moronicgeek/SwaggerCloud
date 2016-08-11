@@ -9,10 +9,12 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @ConfigurationProperties("swagger.cloud.boot.client")
 public class SwaggerCloudClientProperties {
-    private String adminServerUrl = "http://localhost:4891";
-    private String swaggerUrl = "http://localhost:9384/swagger.json";
+    private String adminServerUrl = "";
+    private String swaggerUrl = "";
     private String name = "";
     private String groupId = "";
+    //TODO We should probably derive this from the swagger json file and perhaps some other data. Think !!!
+    private String description  ="";
 
     @Autowired
     private ServerProperties server;

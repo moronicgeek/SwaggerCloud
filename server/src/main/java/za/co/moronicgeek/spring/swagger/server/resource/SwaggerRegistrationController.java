@@ -24,7 +24,6 @@ public class SwaggerRegistrationController {
     private static final Logger LOGGER = LoggerFactory.getLogger(SwaggerRegistrationController.class);
 
 
-
     /**
      * Register an application within this admin application.
      *
@@ -38,7 +37,6 @@ public class SwaggerRegistrationController {
         registry.addApi(app);
         return status(HttpStatus.CREATED).body(app);
     }
-
 
 
     /**
@@ -58,13 +56,12 @@ public class SwaggerRegistrationController {
     /**
      * Register an application within this admin application.
      *
-
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/api/hello", method = RequestMethod.GET)
     public ResponseEntity<String> register() {
-        LOGGER.debug("It's all a test " );
+        LOGGER.debug("It's all a test ");
 
         return ResponseEntity.ok("Hello From the server");
     }
@@ -72,42 +69,41 @@ public class SwaggerRegistrationController {
     /**
      * Register an application within this admin application.
      *
-
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/size", method = RequestMethod.GET)
     public ResponseEntity<String> size() {
-        LOGGER.debug("It's all a test " );
+        LOGGER.debug("It's all a test ");
 
-        return ResponseEntity.ok(registry.size()+"");
+        return ResponseEntity.ok(registry.size() + "");
     }
 
 
     /**
      * Register an application within this admin application.
      *
-
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/sizeof/{groupId}", method = RequestMethod.GET)
     public ResponseEntity<String> size(@PathVariable String groupId) {
-        LOGGER.debug("It's all a test " );
+        LOGGER.debug("It's all a test ");
 
-        return ResponseEntity.ok(registry.sizeOf(groupId)+"");
+        return ResponseEntity.ok(registry.sizeOf(groupId) + "");
     }
 
     /**
      * Register an application within this admin application.
      *
-
      * @return The registered application.
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/all", method = RequestMethod.GET)
-    public @ResponseBody ResponseEntity<List<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
-        LOGGER.debug("Retrieving all registered application" );
+    public
+    @ResponseBody
+    ResponseEntity<List<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
+        LOGGER.debug("Retrieving all registered application");
         return ResponseEntity.ok(registry.getAllBeans());
     }
 

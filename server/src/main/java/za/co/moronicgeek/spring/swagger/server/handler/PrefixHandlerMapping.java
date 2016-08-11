@@ -34,8 +34,8 @@ import java.util.List;
  * @author Johannes Edmeier
  */
 public class PrefixHandlerMapping extends RequestMappingHandlerMapping {
-    private String prefix = "";
     private final Object handlers[];
+    private String prefix = "";
 
     public PrefixHandlerMapping(Object... handlers) {
         this.handlers = handlers.clone();
@@ -84,12 +84,12 @@ public class PrefixHandlerMapping extends RequestMappingHandlerMapping {
         return newPatterns;
     }
 
-    public void setPrefix(String prefix) {
-        this.prefix = prefix;
-    }
-
     public String getPrefix() {
         return prefix;
+    }
+
+    public void setPrefix(String prefix) {
+        this.prefix = prefix;
     }
 
 }
