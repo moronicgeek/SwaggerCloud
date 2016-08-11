@@ -30,10 +30,14 @@ Simply add the following maven dependency to your project.
  
 and add the following resouces to your application.properties or application.yml
 ```
-swagger.cloud.boot.admin.url=http://localhost:8084
-swagger.cloud.boot.admin.apiPath=/test/register
+
 swagger.cloud.boot.client.name=IchiServerAPI
 swagger.cloud.boot.client.swagger-url=http://localhost:8081/swagger.json
+
+##Optional
+swagger.cloud.boot.admin.url=http://localhost:8084
+swagger.cloud.boot.admin.apiPath=/test/register
+
 ```
  
 ###Server
