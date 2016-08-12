@@ -8,7 +8,7 @@ public enum AdminRoutes {
 
     REGISTER("/register"), DEREGISTER("/unregister");
 
-    private String context = "/test";
+    private String context = "/swaggercloud";
 
     private String path;
 
@@ -19,4 +19,6 @@ public enum AdminRoutes {
     public String getPath() {
         return path;
     }
+
+    public String getContext() {return context;}
 }

@@ -80,6 +80,14 @@
 
 
             <resource>
+                <includes>
+                    <include>index.html</include>
+                </includes>
+                <directory>src/</directory>
+                <targetPath>META-INF/resources/swagger-cloud-ui</targetPath>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
                 <directory>dist</directory>
                 <targetPath>META-INF/resources/swagger-cloud-ui</targetPath>
                 <filtering>true</filtering>

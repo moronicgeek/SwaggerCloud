@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/dist" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/swagger-ui" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/index.html" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

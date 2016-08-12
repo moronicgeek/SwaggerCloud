@@ -1,8 +1,11 @@
 package za.co.moronicgeek.spring.swagger.server.registry;
 
+import io.swagger.models.Swagger;
+import io.swagger.parser.SwaggerParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;
+import za.co.moronicgeek.spring.swagger.server.ApiDefinition;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.*;
@@ -14,27 +17,36 @@ import java.util.concurrent.ConcurrentHashMap;
 //TODO probably a good idea to create an interface for other stores like hazel cast and the myriad other stores. One Day!!!
 public class Registry {
     private static Logger LOGGER = LoggerFactory.getLogger(Registry.class);
-    private ConcurrentHashMap<String, Set<ApplicationRegistrationMetadata>> registry = new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String, Set<ApiDefinition>> registry = new ConcurrentHashMap<>();
 
     public boolean addApi(ApplicationRegistrationMetadata metadata) {
         Assert.notNull(metadata);
         Assert.notNull(metadata.getGroupId());
         Assert.notNull(metadata.getSwaggerUrl());
+        Swagger swagger = new SwaggerParser().read(metadata.getSwaggerUrl());
 
-        Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(metadata.getGroupId());
+        ApiDefinition api = new ApiDefinition();
+        api.setGroupId(metadata.getGroupId());
+        api.setSwaggerUrl(metadata.getSwaggerUrl());
+        api.setName(metadata.getName());
+        if (swagger != null) {
+            api.setDescription(swagger.getInfo().getDescription());
+        }
+
+        Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
         if (swaggerGroup == null) {
-            Set<ApplicationRegistrationMetadata> set = new HashSet<ApplicationRegistrationMetadata>();
-            set.add(metadata);
+            Set<ApiDefinition> set = new HashSet<ApiDefinition>();
+            set.add(api);
             registry.put(metadata.getGroupId(), set);
 
         } else {
-            swaggerGroup.add(metadata);
+            swaggerGroup.add(api);
         }
         LOGGER.info("Added Api to Registry {}", metadata);
         return true;
     }
 
-    public List<ApplicationRegistrationMetadata> getAllBeans() {
+    public List<ApiDefinition> getAllBeans() {
         Enumeration enumeration = registry.elements();
         return Collections.list(enumeration);
     }
@@ -45,7 +57,7 @@ public class Registry {
     }
 
     public int sizeOf(String groupId) {
-        Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(groupId);
+        Set<ApiDefinition> swaggerGroup = registry.get(groupId);
         if (swaggerGroup != null) {
             return swaggerGroup.size();
         } else {
@@ -54,9 +66,9 @@ public class Registry {
 
     }
 
-    public ApplicationRegistrationMetadata getMetadataByGroupId(String groupId) {
+    public ApiDefinition getMetadataByGroupId(String groupId) {
 
-        Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(groupId);
+        Set<ApiDefinition> swaggerGroup = registry.get(groupId);
         if (swaggerGroup != null) {
 
             return swaggerGroup.iterator().next();
@@ -66,10 +78,22 @@ public class Registry {
 
     public boolean unRegisterApplication(ApplicationRegistrationMetadata metadata) {
 
-        Set<ApplicationRegistrationMetadata> swaggerGroup = registry.get(metadata.getGroupId());
+        Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
 
         if (swaggerGroup != null) {
-            swaggerGroup.remove(metadata);
+
+            Iterator<ApiDefinition> enumeration = swaggerGroup.iterator();
+
+           while (enumeration.hasNext()){
+               ApiDefinition def = enumeration.next();
+               if (def.getGroupId().equals(metadata.getGroupId()) && def.getSwaggerUrl().equals(metadata.getSwaggerUrl())){
+                   swaggerGroup.remove(def);
+               }
+           }
+
+
+
+
             if (swaggerGroup.size() == 0) {
                 registry.remove(metadata.getGroupId());
             }

@@ -24,11 +24,13 @@ public class ConfigurationTest {
 
 
     public void testSwagerCloudAdminProperties(){
-        load("adminServerUrl=IAMAURL","swaggerUrl=IAMASWAGGERURL","name=IHAVEANAME");
+
+        load("swagger.cloud.boot.client.name:IchiServerAPI"," swagger.cloud.boot.client.swagger-url:http://localhost:8081/swagger.json",
+                "swagger.cloud.boot.client.groupId:za.co.moronicgeek.ichiserver");
         SwaggerCloudClientProperties clientProperties = new SwaggerCloudClientProperties();
         context.getAutowireCapableBeanFactory().autowireBean(clientProperties);
 
-       Assert.assertThat(clientProperties.getSwaggerUrl(),is("IAMASWAGGERURL"));
+       Assert.assertThat(clientProperties.getSwaggerUrl(),is("za.co.moronicgeek.ichiserver"));
 
 
 
@@ -40,6 +42,7 @@ public class ConfigurationTest {
     private void load(String... environment) {
         AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
         applicationContext.register(PropertyPlaceholderAutoConfiguration.class);
+        applicationContext.register(SwaggerCloudClientProperties.class);
         applicationContext.register(ServerPropertiesAutoConfiguration.class);
         EnvironmentTestUtils.addEnvironment(applicationContext, environment);
         applicationContext.refresh();

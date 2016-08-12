@@ -16,6 +16,7 @@ public class ApplicationRegistrationMetadata {
     private String swaggerUrl;
     private String groupId;
 
+
     public ApplicationRegistrationMetadata(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;

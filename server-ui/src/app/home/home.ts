@@ -26,21 +26,16 @@ export class Home {
 
 ngOnInit(){
 
-  this.swaggerCloud.getRepoForOrg()
+  this.swaggerCloud.getAllApis()
       .subscribe(repoDetails => {
         this.repoDetails = repoDetails;
       });
 }
 
-  onClick (){
-    console.log("It's clicked");
 
-    this.swaggerCloud.getRepoForOrg()
-        .subscribe(repoDetails => {
-          this.repoDetails = repoDetails;
-        });
+    redirectClick(event){
+        window.location.href = "http://localhost:8084/swagger-ui/index.html?url="+event;
+    }
 
-    console.log(this.repoDetails);
-  }
 
 }

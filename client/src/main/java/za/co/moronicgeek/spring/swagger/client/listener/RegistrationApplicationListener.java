@@ -30,7 +30,7 @@ public class RegistrationApplicationListener {
             register.registerApplication();
         } catch (Exception e) {
 
-            LOGGER.warn("Let's be real quiet like about this..... SWAGGER CLOUD IS DOWN!!");
+            LOGGER.warn("Let's be real quiet like about this..... SWAGGER CLOUD IS DOWN!!",e);
         }
 
     }

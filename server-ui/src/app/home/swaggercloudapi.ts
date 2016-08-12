@@ -8,14 +8,14 @@ export class SwaggerCloud {
 
 
 
-    getRepoForOrg() {
+    getAllApis() {
         return this.makeRequest(`all/`);
     }
 
     private makeRequest(path: string) {
 
 
-        let url = `http://localhost:8084/test/${ path }`;
+        let url = `http://localhost:8084/swaggercloud/${ path }`;
         return this.http.get(url)
             .map((res) => res.json());
     }

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import za.co.moronicgeek.spring.swagger.server.ApiDefinition;
 import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
@@ -32,10 +33,10 @@ public class SwaggerRegistrationController {
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public ResponseEntity<ApplicationRegistrationMetadata> register(@RequestBody ApplicationRegistrationMetadata app) {
+    public ResponseEntity<Boolean> register(@RequestBody ApplicationRegistrationMetadata app) {
         LOGGER.debug("Register application {}", app.toString());
         registry.addApi(app);
-        return status(HttpStatus.CREATED).body(app);
+        return status(HttpStatus.CREATED).body(true);
     }
 
 
@@ -47,10 +48,10 @@ public class SwaggerRegistrationController {
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/unregister", method = RequestMethod.POST)
-    public ResponseEntity<ApplicationRegistrationMetadata> unregister(@RequestBody ApplicationRegistrationMetadata app) {
+    public ResponseEntity<Boolean> unregister(@RequestBody ApplicationRegistrationMetadata app) {
         LOGGER.debug("Register application {}", app.toString());
         registry.unRegisterApplication(app);
-        return status(HttpStatus.OK).body(app);
+        return status(HttpStatus.OK).body(true);
     }
 
     /**
@@ -102,7 +103,7 @@ public class SwaggerRegistrationController {
     @RequestMapping(value = "/all", method = RequestMethod.GET)
     public
     @ResponseBody
-    ResponseEntity<List<ApplicationRegistrationMetadata>> retrieveRegsiteredApis() {
+    ResponseEntity<List<ApiDefinition>> retrieveRegsiteredApis() {
         LOGGER.debug("Retrieving all registered application");
         return ResponseEntity.ok(registry.getAllBeans());
     }

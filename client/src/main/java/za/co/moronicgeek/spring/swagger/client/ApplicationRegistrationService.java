@@ -11,7 +11,6 @@ import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.Collections;
-import java.util.Map;
 
 /**
  * Created by muhammedpatel on 2016/08/06.
@@ -50,8 +49,8 @@ public class ApplicationRegistrationService {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         //this will be used some day
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
-                new HttpEntity<>(self, HTTP_HEADERS), Map.class);
+        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
+                new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
 
         return registrationSuccessful;
     }
@@ -60,8 +59,8 @@ public class ApplicationRegistrationService {
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         //this will be used some day
-        ResponseEntity<Map> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
-                new HttpEntity<>(self, HTTP_HEADERS), Map.class);
+        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
+                new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
         return deregistered;
     }
 

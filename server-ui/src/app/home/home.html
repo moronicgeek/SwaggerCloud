@@ -1,12 +1,11 @@
 <link rel="stylesheet" type="text/css" href="https://bootswatch.com/simplex/bootstrap.min.css">
 
 
-
-    <span *ngFor="let repo of repoDetails">
-
+<span *ngFor="let repo of repoDetails">
 
 
-     <div  class="col-md-4" *ngFor="let more of repo ">
+
+     <div class="col-md-4" *ngFor="let more of repo ">
 
 
 
@@ -16,9 +15,15 @@
            <h3 class="panel-title"><i class="glyphicon glyphicon glyphicon-dashboard" aria-hidden="true"></i> {{more.name}}</h3>
         </div>
         <div class="panel-body">
+            <p>
+         <b>Group Id :</b>  {{more.groupId}}
+    </p>
+            <p>
 
-         Group Id :  {{more.groupId}}
-             <a href="http://localhost:8084/swagger-ui/index.html?url={{more.swaggerUrl}}"><h1>Swagger Docs</h1></a>
+        <b>    Description :</b> {{more.description}}
+                </p>
+
+           <button type="button" (click)="redirectClick(more.swaggerUrl)" class="btn btn-lg btn-info navbar-right">Swagger Docs</button>
         </div>
     </div>
 
