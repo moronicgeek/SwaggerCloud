@@ -42,7 +42,7 @@ swagger.cloud.boot.admin.apiPath=/test/register
  
 ###Server
  The server requires a basic spring boot application with the (@EnableSwaggerCloudServer) annotation in your application config.
- The server could integrate with any other language as the server exposes a restful api for you to use. Please refer to the Server Api documentation in the wiki.
+ The server could integrate with any other language as the server exposes a restful api for you to use. Please refer to the Server Api documentation in the wiki. [Server API](https://github.com/moronicgeek/SwaggerCloud/wiki/Server-Api)
  
  ```
    <dependency>
