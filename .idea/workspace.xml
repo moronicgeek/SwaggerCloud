@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="Added a task scheduler when failing to register">
+    <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/main.browser.ts" afterPath="$PROJECT_DIR$/server-ui/src/main.browser.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringSwaggerAdmin.iml" afterPath="$PROJECT_DIR$/SpringSwaggerAdmin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.iml" afterPath="$PROJECT_DIR$/client/client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/clients.iml" afterPath="$PROJECT_DIR$/samples/clients/clients.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" afterPath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ni/ni.iml" afterPath="$PROJECT_DIR$/samples/clients/ni/ni.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/san.iml" afterPath="$PROJECT_DIR$/samples/clients/san/san.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/samples.iml" afterPath="$PROJECT_DIR$/samples/samples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/server-ui.iml" afterPath="$PROJECT_DIR$/server-ui/server-ui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/pom.xml" afterPath="$PROJECT_DIR$/server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" afterPath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,44 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegistrationApplicationListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1972#2360#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwaggerAdminClientAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationRegistrationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminRoutes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,16 +71,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiDefinitionBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinitionBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpringSwaggerCloudServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,18 +86,18 @@
       <file leaf-file-name="RegistryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="540">
               <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registry.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1652#1667#0" expanded="true" />
@@ -146,8 +109,56 @@
       <file leaf-file-name="SwaggerRegistrationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="137">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="997">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiDefinition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -177,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.css" />
         <option value="$PROJECT_DIR$/server-ui/src/app/github/repo-browser/repo-browser.html" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resolvers/resource/PreferMinifiedFilteringResourceResolver.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resolvers/resource/ConcatenatingResourceResolver.java" />
@@ -200,7 +210,6 @@
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java" />
         <option value="$PROJECT_DIR$/.gitattributes" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/test/ConfigurationTest.java" />
         <option value="$PROJECT_DIR$/server-ui/src/app/home/swaggercloudapi.ts" />
         <option value="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java" />
@@ -210,7 +219,6 @@
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" />
         <option value="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
         <option value="$PROJECT_DIR$/server-ui/pom.xml" />
         <option value="$PROJECT_DIR$/server-ui/src/index.html" />
         <option value="$PROJECT_DIR$/server-ui/src/app/home/home.ts" />
@@ -228,6 +236,9 @@
         <option value="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationTest.java" />
         <option value="$PROJECT_DIR$/server-ui/src/main.browser.ts" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java" />
       </list>
     </option>
   </component>
@@ -250,10 +261,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="986" />
+    <option name="x" value="580" />
+    <option name="width" value="700" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -938,6 +948,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="prop_add_unversioned_files" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ApplicationRegistrationTest&#9;RUN_CONFIGURATION&#9;ApplicationRegistrationTest&#10;SwaggerRegistrationController&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java&#10;Regis&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java&#10;Registr&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java&#10;SwaggerAdminClientAutoConfiguration&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java&#10;SwaggerPro&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java&#10;swaggerCloud&#9;FILE&#9;file:///Users/muhammedpatel/git/SpringSwaggerAdmin/server/src/main/java/za/co/moronicgeek/spring/swagger/server/SpringSwaggerCloudServer.java" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1078,27 +1089,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="JUnit.RegistryTest">
-    <configuration default="false" name="SanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.co.moronicgeek.san.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.san.SanApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="san" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RestControllerTest.testDeRegister">
     <configuration default="false" name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1117,32 +1108,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="server (1) (za.co.discovery.spring.samples.server)" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConfigurationTest.testSwagerCloudAdminProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="za.co.moronicgeek.spring.swagger.client" />
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.client.ConfigurationTest" />
-      <option name="METHOD_NAME" value="testSwagerCloudAdminProperties" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="ApplicationRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -1185,6 +1150,58 @@
       <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.server.RegistryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RestControllerTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.co.moronicgeek.spring.swagger.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.co.moronicgeek.spring.swagger.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.server.RestControllerTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RestControllerTest.testDeRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.co.moronicgeek.spring.swagger.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.co.moronicgeek.spring.swagger.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.spring.swagger.server.RestControllerTest" />
+      <option name="METHOD_NAME" value="testDeRegister" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1703,19 +1720,19 @@
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.NiApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServerApplication" />
       <item index="5" class="java.lang.String" itemvalue="npm.Start UI" />
-      <item index="6" class="java.lang.String" itemvalue="Application.SanApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Application.ServerApplication" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.ConfigurationTest.testSwagerCloudAdminProperties" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationTest" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ServerApplication" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testRegister" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testDeRegister" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ServerApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SanApplication" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConfigurationTest.testSwagerCloudAdminProperties" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testDeRegister" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testRegister" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ApplicationRegistrationTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1737,7 +1754,7 @@
       <workItem from="1470572502794" duration="2189000" />
       <workItem from="1470574869516" duration="260000" />
       <workItem from="1470575237257" duration="182000" />
-      <workItem from="1470575494337" duration="86029000" />
+      <workItem from="1470575494337" duration="91286000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed package">
       <created>1470591938903</created>
@@ -1970,47 +1987,54 @@
       <option name="project" value="LOCAL" />
       <updated>1471048290750</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added a task scheduler when failing to register">
+      <created>1471108197461</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1471108197461</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationRegistrationTest - 2016.08.13 at 01h 30m 31s.xml">
-      <configuration name="ApplicationRegistrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationRegistrationTest - 2016.08.13 at 01h 33m 24s.xml">
-      <configuration name="ApplicationRegistrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationRegistrationTest - 2016.08.13 at 02h 29m 43s.xml">
-      <configuration name="ApplicationRegistrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testSwagerCloudAdminProperties - 2016.08.12 at 00h 33m 22s.xml">
-      <configuration name="ConfigurationTest.testSwagerCloudAdminProperties" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testSwagerCloudAdminProperties - 2016.08.12 at 00h 34m 07s.xml">
-      <configuration name="ConfigurationTest.testSwagerCloudAdminProperties" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testSwagerCloudAdminProperties - 2016.08.12 at 00h 42m 34s.xml">
-      <configuration name="ConfigurationTest.testSwagerCloudAdminProperties" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testSwagerCloudAdminProperties - 2016.08.12 at 00h 42m 44s.xml">
-      <configuration name="ConfigurationTest.testSwagerCloudAdminProperties" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testSwagerCloudAdminProperties - 2016.08.12 at 00h 43m 46s.xml">
-      <configuration name="ConfigurationTest.testSwagerCloudAdminProperties" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegistryTest - 2016.08.13 at 17h 33m 38s.xml">
       <configuration name="RegistryTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegistryTest - 2016.08.13 at 17h 36m 34s.xml">
       <configuration name="RegistryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestControllerTest_testDeRegister - 2016.08.13 at 21h 40m 28s.xml">
+      <configuration name="RestControllerTest.testDeRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testDeRegister - 2016.08.13 at 21h 41m 09s.xml">
+      <configuration name="RestControllerTest.testDeRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 16m 54s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 25m 46s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 34m 00s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 34m 54s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 38m 08s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testRegister - 2016.08.13 at 21h 39m 00s.xml">
+      <configuration name="RestControllerTest.testRegister" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108329000" />
+    <option name="totallyTimeSpent" value="113586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1920" height="986" extended-state="0" />
-    <editor active="true" />
+    <frame x="580" y="0" width="700" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2028,10 +2052,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37583894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46849316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2673378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23908414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20972644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2165,14 +2189,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-ui/node_modules/bootstrap-css/lib/panels.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2262,17 +2278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2436,17 +2441,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -2502,17 +2496,6 @@
         <state relative-caret-position="450">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2593,29 +2576,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1652#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="540">
           <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java">
+    <entry file="file://$PROJECT_DIR$/server-ui/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="997">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1652#1667#0" expanded="true" />
           </folding>
         </state>
       </provider>

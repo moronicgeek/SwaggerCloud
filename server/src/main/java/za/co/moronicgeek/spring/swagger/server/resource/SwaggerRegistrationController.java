@@ -22,6 +22,7 @@ public class SwaggerRegistrationController {
 
     @Autowired
     private Registry registry;
+
     private static final Logger LOGGER = LoggerFactory.getLogger(SwaggerRegistrationController.class);
 
 
@@ -49,7 +50,7 @@ public class SwaggerRegistrationController {
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/unregister", method = RequestMethod.POST)
     public ResponseEntity<Boolean> unregister(@RequestBody ApplicationRegistrationMetadata app) {
-        LOGGER.debug("Register application {}", app.toString());
+        LOGGER.debug("Unregister application {}", app.toString());
         registry.unRegisterApplication(app);
         return status(HttpStatus.OK).body(true);
     }
@@ -89,7 +90,8 @@ public class SwaggerRegistrationController {
     @CrossOrigin(origins = "http://localhost:3000")
     @RequestMapping(value = "/sizeof/{groupId}", method = RequestMethod.GET)
     public ResponseEntity<String> size(@PathVariable String groupId) {
-        LOGGER.debug("It's all a test ");
+
+        LOGGER.debug("Retrieving size of " + registry.sizeOf(groupId) );
 
         return ResponseEntity.ok(registry.sizeOf(groupId) + "");
     }
