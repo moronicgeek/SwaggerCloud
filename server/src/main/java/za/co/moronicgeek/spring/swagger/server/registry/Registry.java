@@ -80,10 +80,12 @@ public class Registry {
     public boolean unRegisterApplication(ApplicationRegistrationMetadata metadata) {
 
         Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
+        Set<ApiDefinition> temp = new HashSet<>();
+        temp.addAll(swaggerGroup);
 
         if (swaggerGroup != null) {
 
-            Iterator<ApiDefinition> enumeration = swaggerGroup.iterator();
+            Iterator<ApiDefinition> enumeration = temp.iterator();
 
            while (enumeration.hasNext()){
                ApiDefinition def = enumeration.next();

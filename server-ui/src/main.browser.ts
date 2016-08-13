@@ -8,6 +8,8 @@ import {App} from './app/app';
 
 // enableProdMode()
 
+var test = require("/dsf.js");
+
 bootstrap(App, [
   HTTP_PROVIDERS,
   APP_ROUTER_PROVIDERS,
