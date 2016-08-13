@@ -104,8 +104,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     @Bean
     public PrefixHandlerMapping prefixHandlerMapping() {
         PrefixHandlerMapping prefixHandlerMapping = new PrefixHandlerMapping(registrationController());
-        //TODO exposed context here but it needs to go some where else. just wanted to centralize the configuration for now.
-        prefixHandlerMapping.setPrefix(AdminRoutes.DEREGISTER.getContext());
+        prefixHandlerMapping.setPrefix(AdminRoutes.CONTEXT.getPath());
         return prefixHandlerMapping;
     }
 

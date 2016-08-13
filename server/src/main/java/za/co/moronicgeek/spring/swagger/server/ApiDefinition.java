@@ -11,6 +11,12 @@ public class ApiDefinition {
     private String groupId;
     private String description;
 
+    public ApiDefinition(String name, String swaggerUrl, String groupId, String description) {
+        this.name = name;
+        this.swaggerUrl = swaggerUrl;
+        this.groupId = groupId;
+        this.description = description;
+    }
 
     public String getName() {
         return name;

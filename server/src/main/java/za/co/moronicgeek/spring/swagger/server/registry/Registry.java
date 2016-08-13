@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;
 import za.co.moronicgeek.spring.swagger.server.ApiDefinition;
+import za.co.moronicgeek.spring.swagger.server.ApiDefinitionBuilder;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.*;
@@ -25,7 +26,7 @@ public class Registry {
         Assert.notNull(metadata.getSwaggerUrl());
         Swagger swagger = new SwaggerParser().read(metadata.getSwaggerUrl());
 
-        ApiDefinition api = new ApiDefinition();
+        ApiDefinition api = new ApiDefinitionBuilder().createApiDefinition();
         api.setGroupId(metadata.getGroupId());
         api.setSwaggerUrl(metadata.getSwaggerUrl());
         api.setName(metadata.getName());

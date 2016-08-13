@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.client.test;
+package za.co.moronicgeek.spring.swagger.client;
 
 import org.junit.Assert;
 import org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration;

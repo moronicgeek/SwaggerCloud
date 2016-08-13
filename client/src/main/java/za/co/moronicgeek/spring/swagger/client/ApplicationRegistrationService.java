@@ -49,7 +49,7 @@ public class ApplicationRegistrationService {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         //this will be used some day
-        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.REGISTER.getPath(),
+        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() +AdminRoutes.CONTEXT.getPath()+ AdminRoutes.REGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
 
         return registrationSuccessful;
