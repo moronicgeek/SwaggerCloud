@@ -11,7 +11,9 @@ import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
@@ -51,13 +53,25 @@ public class RestControllerTest {
 
 
     @Test
-    public void testDeRegister() throws Exception{
+    public void testDeRegister1() throws Exception{
 
         Mockito.when(registry.unRegisterApplication(Matchers.any(ApplicationRegistrationMetadata.class))).thenReturn(true);
         MvcResult result = mvc
                 .perform(post("/unregister").contentType(MediaType.APPLICATION_JSON)
                         .content(APPLICATION_TEST_JSON))
                 .andExpect(status().isOk()).andReturn();
+
+    }
+
+
+    @Test
+    public void testSize() throws Exception{
+
+        Mockito.when(registry.size()).thenReturn(1);
+
+        MvcResult result = mvc
+                .perform(get("/size").contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk()).andExpect(jsonPath("$.size").value(1)).andReturn();
 
     }
 
