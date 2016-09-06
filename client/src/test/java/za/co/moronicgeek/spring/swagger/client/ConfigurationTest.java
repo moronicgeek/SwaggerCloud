@@ -8,9 +8,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
 
 import static org.hamcrest.Matchers.is;
-/**
- * Created by muhammedpatel on 2016/08/06.
- */
+
 public class ConfigurationTest {
 
     private AnnotationConfigWebApplicationContext context;

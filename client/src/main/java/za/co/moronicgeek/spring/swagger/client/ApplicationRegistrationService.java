@@ -48,9 +48,12 @@ public class ApplicationRegistrationService {
     public boolean registerApplication() {
         boolean registrationSuccessful = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
-        //this will be used some day
+
         ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() +AdminRoutes.CONTEXT.getPath()+ AdminRoutes.REGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
+        if (response == null){
+            return false;
+        }
 
         return registrationSuccessful;
     }
@@ -61,6 +64,9 @@ public class ApplicationRegistrationService {
         //this will be used some day
         ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
+        if (response == null){
+            return false;
+        }
         return deregistered;
     }
 

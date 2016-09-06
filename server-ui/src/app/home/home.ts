@@ -1,16 +1,14 @@
 import {Component} from '@angular/core';
 import {Observable} from "rxjs";
 import {SwaggerCloud} from "./swaggercloudapi";
-import {AlertComponent, DATEPICKER_DIRECTIVES, BUTTON_DIRECTIVES} from "ng2-bootstrap";
-import {ApiFilter} from "./apipipe";
 
 
 
 @Component({
   selector: 'home',
-  pipes: [ApiFilter],
+
   providers: [SwaggerCloud],
-  directives: [BUTTON_DIRECTIVES,AlertComponent, DATEPICKER_DIRECTIVES],
+
   styleUrls: ['./home.css'],
   templateUrl: './home.html'
 })

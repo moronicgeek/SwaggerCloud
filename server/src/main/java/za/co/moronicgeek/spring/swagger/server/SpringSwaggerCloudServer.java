@@ -110,8 +110,16 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Bean
     public Registry registry() {
+        Registry registry = new Registry();
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test").withGroupId("za.co.test1").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test1").withGroupId("za.co.test1").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test2").withGroupId("za.co.test2").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test3").withGroupId("za.co.test2").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test4").withGroupId("za.co.test3").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test5").withGroupId("za.co.test3").withSwaggerUrl("http://test")));
+        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test6").withGroupId("za.co.test4").withSwaggerUrl("http://test")));
 
-        return new Registry();
+        return registry;
     }
 
     @Bean

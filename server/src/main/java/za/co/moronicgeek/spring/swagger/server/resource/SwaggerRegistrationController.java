@@ -55,18 +55,7 @@ public class SwaggerRegistrationController {
         return status(HttpStatus.OK).body(true);
     }
 
-    /**
-     * Register an application within this admin application.
-     *
-     * @return The registered application.
-     */
-    @CrossOrigin(origins = "http://localhost:3000")
-    @RequestMapping(value = "/api/hello", method = RequestMethod.GET)
-    public ResponseEntity<String> register() {
-        LOGGER.debug("It's all a test ");
 
-        return ResponseEntity.ok("Hello From the server");
-    }
 
     /**
      * Register an application within this admin application.

@@ -30,13 +30,19 @@ public class ApplicationRegistrationServiceTest {
 
     @Before
     public void initialize(){
+
         MockitoAnnotations.initMocks(this);
     }
 
     @Test
-    public void testCreateHeaders(){
-
-        service.registerApplication();
+    public void testRegister(){
+        //TODO Implement
 
     }
+
+    @Test
+    public void testDeregister(){
+        //TODO Implement
+    }
+
 }
