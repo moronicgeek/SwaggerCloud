@@ -1,35 +1,39 @@
 <link rel="stylesheet" type="text/css" href="https://bootswatch.com/simplex/bootstrap.min.css">
 
 
-<span *ngFor="let repo of repoDetails">
-
-
-
-     <div class="col-md-4" *ngFor="let more of repo ">
-
-
+<div class="col-md-4" *ngFor="let repo of repoDetails">
 
     <div class="panel panel-success">
 
         <div class="panel-heading">
-           <h3 class="panel-title"><i class="glyphicon glyphicon glyphicon-dashboard" aria-hidden="true"></i> {{more.name}}</h3>
+            <h3 class="panel-title"><i class="glyphicon glyphicon glyphicon-dashboard" aria-hidden="true"></i>
+                {{repo[0].name}}</h3>
         </div>
         <div class="panel-body">
             <p>
-         <b>Group Id :</b>  {{more.groupId}}
-    </p>
+                <b>Group Id :</b> {{repo[0].groupId}}
+            </p>
             <p>
 
-        <b>    Description :</b> {{more.description}}
-                </p>
+                <b> Description :</b> {{repo[0].description}}
+            </p>
 
-           <button type="button" (click)="redirectClick(more.swaggerUrl)" class="btn btn-lg btn-info navbar-right">Swagger Docs</button>
+                <select>
+
+                    <option *ngFor="let apiUrls of repo" value="{{apiUrls.swaggerUrl}}">
+                        {{apiUrls.swaggerUrl}}
+                    </option>
+
+                </select>
+
+            <button type="button" (click)="redirectClick(repo[0].swaggerUrl)"
+                    class="btn btn-lg btn-info navbar-right button-padding">Swagger Docs
+            </button>
         </div>
     </div>
 
-    </div>
 
-    </span>
+</div>
 
 
 

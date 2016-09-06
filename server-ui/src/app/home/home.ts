@@ -27,7 +27,9 @@ ngOnInit(){
   this.swaggerCloud.getAllApis()
       .subscribe(repoDetails => {
         this.repoDetails = repoDetails;
+          console.log(this.repoDetails);
       });
+
 }
 
 
