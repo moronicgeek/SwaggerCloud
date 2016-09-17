@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.ContextClosedEvent;
+import org.springframework.context.event.ContextStoppedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -67,13 +68,26 @@ public class RegistrationApplicationListener {
 
 
     @EventListener
-    @Order(Ordered.LOWEST_PRECEDENCE)
+    @Order(Ordered.HIGHEST_PRECEDENCE)
     public void onApplicationShutdown(ContextClosedEvent event) {
         try {
             register.deregisterApplication();
 
         } catch (Exception ex) {
-            LOGGER.warn("Server is probably down!! Not worry you are dead so you don't care, do you?");
+            LOGGER.warn("Server is probably down!! No worry you are dead so you don't care, do you?",ex);
+        }
+        stopRegisterTask();
+    }
+
+    @EventListener
+    @Order(Ordered.LOWEST_PRECEDENCE)
+    public void onApplicationShutdown(ContextStoppedEvent event) {
+        try {
+            register.deregisterApplication();
+
+        } catch (Exception ex) {
+            LOGGER.warn("Server is probably down!! No worry you are dead so you don't care, do you?",ex);
+
         }
         stopRegisterTask();
     }

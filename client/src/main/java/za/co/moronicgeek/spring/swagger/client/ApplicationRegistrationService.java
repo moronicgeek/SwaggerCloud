@@ -62,7 +62,7 @@ public class ApplicationRegistrationService {
         boolean deregistered = false;
         ApplicationRegistrationMetadata self = createMetaDataApplication();
         //this will be used some day
-        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() + AdminRoutes.DEREGISTER.getPath(),
+        ResponseEntity<Boolean> response = template.postForEntity(adminProperties.getUrl() +AdminRoutes.CONTEXT.getPath()+ AdminRoutes.DEREGISTER.getPath(),
                 new HttpEntity<>(self, HTTP_HEADERS), Boolean.class);
         if (response == null){
             return false;

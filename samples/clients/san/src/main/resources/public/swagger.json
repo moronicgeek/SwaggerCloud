@@ -1,8 +1,8 @@
 {  "swagger" : "2.0",
   "info" : {
-    "description" : "This is a sample for IchiServer",
+    "description" : "This is a sample for SanApplication",
     "version" : "v1",
-    "title" : "SanServer",
+    "title" : "NiServer",
     "termsOfService" : "http://www.github.com/moronicgeek",
     "contact" : {
       "name" : "Muhammed Patel",

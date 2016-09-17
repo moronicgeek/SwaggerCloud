@@ -81,10 +81,10 @@ public class Registry {
 
         Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
         Set<ApiDefinition> temp = new HashSet<>();
-        temp.addAll(swaggerGroup);
+
 
         if (swaggerGroup != null) {
-
+            temp.addAll(swaggerGroup);
             Iterator<ApiDefinition> enumeration = temp.iterator();
 
            while (enumeration.hasNext()){

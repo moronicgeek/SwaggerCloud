@@ -18,7 +18,7 @@
                 <b> Description :</b> {{repo[0].description}}
             </p>
 
-                <select>
+                <select [(ngModel)]="selected">
 
                     <option *ngFor="let apiUrls of repo" value="{{apiUrls.swaggerUrl}}">
                         {{apiUrls.swaggerUrl}}

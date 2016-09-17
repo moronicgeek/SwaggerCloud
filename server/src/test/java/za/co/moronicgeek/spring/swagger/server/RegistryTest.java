@@ -52,6 +52,23 @@ public class RegistryTest {
     }
 
     @Test
+    public void removeFromRegistry(){
+        initiliase();
+        ApplicationRegistrationMetadata metadata4 = new ApplicationRegistrationMetadata();
+        metadata4.setId(4);
+        metadata4.setName("API4");
+        metadata4.setGroupId("za.co.moronicgeek.api4");
+        metadata4.setSwaggerUrl("Dont care");
+
+        registry.unRegisterApplication(metadata4);
+
+
+        Assert.assertNull(registry.getMetadataByGroupId("za.co.moronicgeek.api4"));
+
+
+    }
+
+    @Test
     public void testAddToRegistry() {
 
         ApplicationRegistrationMetadata metadata = new ApplicationRegistrationMetadata();
