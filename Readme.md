@@ -66,3 +66,12 @@ swagger.cloud.boot.admin.apiPath=/test/register
 
  TODO soon
  
+ 
+ 
+###Need to generate a swagger.json file? 
+Have a look at the following projects to auto generate a swagger definition for you 
+
+https://github.com/kongchen/swagger-maven-plugin
+
+https://github.com/springfox/springfox
+
