@@ -5,7 +5,7 @@ jdk:
 before_install:
   - sudo apt-get update
   - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-  - npm install -g angular-cli
+
   - npm install -g karma
   - npm install -g npm
   
