@@ -16,6 +16,9 @@ import java.util.Collections;
  * Created by muhammedpatel on 2016/08/06.
  * <p>
  * This class will register an api with the swager cloud server
+ *
+ * This service is only used in the instance where eureka does not exist. In the below model the client registers/deregisters itself
+ * from the server.
  */
 public class ApplicationRegistrationService {
 

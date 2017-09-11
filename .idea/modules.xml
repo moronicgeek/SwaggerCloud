@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/clients/clients.iml" filepath="$PROJECT_DIR$/samples/clients/clients.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/eureka-sample/eureka-sample.iml" filepath="$PROJECT_DIR$/samples/eureka-sample/eureka-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/clients/ichi/ichi.iml" filepath="$PROJECT_DIR$/samples/clients/ichi/ichi.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/clients/jedi.iml" filepath="$PROJECT_DIR$/samples/clients/jedi.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/clients/ni/ni.iml" filepath="$PROJECT_DIR$/samples/clients/ni/ni.iml" />

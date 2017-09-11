@@ -13,8 +13,6 @@ export class SwaggerCloud {
     }
 
     private makeRequest(path: string) {
-
-
         let url = `http://localhost:8084/swaggercloud/${ path }`;
         return this.http.get(url)
             .map((res) => res.json());

@@ -71,7 +71,7 @@ public class RestControllerTest {
 
         MvcResult result = mvc
                 .perform(get("/size").contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk()).andExpect(jsonPath("$.size").value(1)).andReturn();
+                .andExpect(status().isOk()).andExpect(jsonPath("$.size").value("1")).andReturn();
 
     }
 

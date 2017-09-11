@@ -67,7 +67,7 @@ public class SwaggerRegistrationController {
     public ResponseEntity<String> size() {
         LOGGER.debug("It's all a test ");
 
-        return ResponseEntity.ok("{size : "+registry.size() +"}");
+        return ResponseEntity.ok("{\"size\" : \""+registry.size() +"\"}");
     }
 
 

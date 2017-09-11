@@ -1,8 +1,9 @@
-package za.co.moronicgeek.spring.swagger.server;
+package swaggercloud.autoconfigure;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -18,21 +19,21 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import za.co.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
 import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
 import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
 import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
-import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 
 import java.util.List;
 
 /**
  * Created by muhammedpatel on 2016/08/01.
  */
+@ConditionalOnBean(annotation = { EnableSwaggerCloud.class })
 @Configuration
 @EnableConfigurationProperties
-
 
 public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
         implements ApplicationContextAware {
@@ -40,6 +41,8 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Autowired
     private ServerProperties server;
+
+
 
     private ApplicationContext applicationContext;
 
@@ -110,17 +113,14 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Bean
     public Registry registry() {
+
         Registry registry = new Registry();
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test").withGroupId("za.co.test1").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test1").withGroupId("za.co.test1").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test2").withGroupId("za.co.test2").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test3").withGroupId("za.co.test2").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test4").withGroupId("za.co.test3").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test5").withGroupId("za.co.test3").withSwaggerUrl("http://test")));
-        registry.addApi(new ApplicationRegistrationMetadata(ApplicationRegistrationMetadata.create("test6").withGroupId("za.co.test4").withSwaggerUrl("http://test")));
+
 
         return registry;
     }
+
+
 
     @Bean
     public SwaggerRegistrationController registrationController() {

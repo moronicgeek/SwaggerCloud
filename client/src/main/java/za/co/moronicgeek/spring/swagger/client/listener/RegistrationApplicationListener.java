@@ -42,7 +42,7 @@ public class RegistrationApplicationListener {
 
             LOGGER.warn("Let's be real quiet like about this..... SWAGGER CLOUD IS DOWN!!",e);
 
-            LOGGER.info("Registering Task to ping server ever 2 mins. I'll stop when i have registered myself");
+            LOGGER.info("Registering Task to ping server every 2 mins. I'll stop when i have registered myself");
 
             if (scheduledTask != null && !scheduledTask.isDone()) {
                 return;

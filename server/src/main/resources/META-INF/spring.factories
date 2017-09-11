@@ -1,1 +1,4 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=za.co.moronicgeek.spring.swagger.server.SpringSwaggerCloudServer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  swaggercloud.autoconfigure.SpringSwaggerCloudServer,\
+  swaggercloud.autoconfigure.SwaggerCloudEurekaAutoConfiguration
+

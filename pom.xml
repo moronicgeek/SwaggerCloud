@@ -10,7 +10,7 @@
     <modules>
         <module>client</module>
         <module>server</module>
-        <module>server-ui</module>
+        <!--<module>server-ui</module>-->
         <module>samples</module>
         <module>core</module>
     </modules>
@@ -19,6 +19,18 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.0.RELEASE</version>
     </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-netflix</artifactId>
+                <version>1.3.4.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>

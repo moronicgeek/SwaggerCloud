@@ -68,7 +68,6 @@ public class Registry {
     }
 
     public ApiDefinition getMetadataByGroupId(String groupId) {
-
         Set<ApiDefinition> swaggerGroup = registry.get(groupId);
         if (swaggerGroup != null) {
 
@@ -78,25 +77,19 @@ public class Registry {
     }
 
     public boolean unRegisterApplication(ApplicationRegistrationMetadata metadata) {
-
         Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
         Set<ApiDefinition> temp = new HashSet<>();
-
 
         if (swaggerGroup != null) {
             temp.addAll(swaggerGroup);
             Iterator<ApiDefinition> enumeration = temp.iterator();
 
-           while (enumeration.hasNext()){
-               ApiDefinition def = enumeration.next();
-               if (def.getGroupId().equals(metadata.getGroupId()) && def.getSwaggerUrl().equals(metadata.getSwaggerUrl())){
-                   swaggerGroup.remove(def);
-               }
-           }
-
-
-
-
+            while (enumeration.hasNext()) {
+                ApiDefinition def = enumeration.next();
+                if (def.getGroupId().equals(metadata.getGroupId()) && def.getSwaggerUrl().equals(metadata.getSwaggerUrl())) {
+                    swaggerGroup.remove(def);
+                }
+            }
             if (swaggerGroup.size() == 0) {
                 registry.remove(metadata.getGroupId());
             }
