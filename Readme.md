@@ -18,7 +18,7 @@ It's not an API Manager
  
 ##Usage
  
-###Client
+###Client(Standalone)
 
 Simply add the following maven dependency to your project.
 ```
@@ -42,7 +42,7 @@ swagger.cloud.boot.admin.apiPath=/test/register
 
 ```
  
-###Server
+###Server(Standalone)
  The server requires a basic spring boot application with the (@EnableSwaggerCloudServer) annotation in your application config.
  The server could integrate with any other language as the server exposes a restful api for you to use. Please refer to the Server Api documentation in the wiki. [Server API](https://github.com/moronicgeek/SwaggerCloud/wiki/Server-Api)
  
@@ -61,6 +61,14 @@ swagger.cloud.boot.admin.apiPath=/test/register
  ```
  
  
+### Modes
+
+## Eureka
+Swagger Cloud supports eureka service discovery which allows the Server to discover clients as they are registered.
+The system reads the registry and pings clients for a success response at the /swaggercloud/properties endpoint.
+
+Once discovered a delta is updated to swagger clouds registry. The server uses eureka to discover a client in an UP/DOWN
+state.
 
 ### Get coding
 
