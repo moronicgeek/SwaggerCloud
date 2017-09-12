@@ -9,16 +9,16 @@ An API document catalog. This project centralises your swagger documentation in 
 The project leverages of the [swagger/swagger-ui](https://github.com/swagger-api/swagger-uiswagger/swagger-ui) project for the swagger interface. 
 The server is a spring boot plugin that allows you to get up and running quickly. 
 
-##What it is ?
+## What it is ?
 It is a document cloud catalog. It catalogs your swagger applications documentation.  
 
-##What it's not?
+## What it's not?
 It's not an API Manager
  
  
-##Usage
+## Usage
  
-###Client(Standalone)
+### Client(Standalone)
 
 Simply add the following maven dependency to your project.
 ```
@@ -42,7 +42,7 @@ swagger.cloud.boot.admin.apiPath=/test/register
 
 ```
  
-###Server(Standalone)
+### Server(Standalone)
  The server requires a basic spring boot application with the (@EnableSwaggerCloudServer) annotation in your application config.
  The server could integrate with any other language as the server exposes a restful api for you to use. Please refer to the Server Api documentation in the wiki. [Server API](https://github.com/moronicgeek/SwaggerCloud/wiki/Server-Api)
  
@@ -76,7 +76,7 @@ state.
  
  
  
-###Need to generate a swagger.json file? 
+### Need to generate a swagger.json file?
 Have a look at the following projects to auto generate a swagger definition for you 
 
 https://github.com/kongchen/swagger-maven-plugin
