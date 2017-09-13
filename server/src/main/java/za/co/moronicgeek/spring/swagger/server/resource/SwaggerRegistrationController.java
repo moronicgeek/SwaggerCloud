@@ -3,6 +3,7 @@ package za.co.moronicgeek.spring.swagger.server.resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +23,9 @@ public class SwaggerRegistrationController {
 
     @Autowired
     private Registry registry;
+
+   @Autowired(required = false)
+   private DiscoveryClient discoveryClient;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SwaggerRegistrationController.class);
 
@@ -97,6 +101,25 @@ public class SwaggerRegistrationController {
     ResponseEntity<List<ApiDefinition>> retrieveRegsiteredApis() {
         LOGGER.debug("Retrieving all registered application");
         return ResponseEntity.ok(registry.getAllBeans());
+    }
+
+
+
+    /**
+     * Register an application within this admin application.
+     *
+     * @return The registered application.
+     */
+    @CrossOrigin(origins = "http://localhost:3000")
+    @RequestMapping(value = "/scan", method = RequestMethod.GET)
+    public Boolean scan() {
+
+        LOGGER.debug(" Starting Scan .... ");
+
+        for (String app : discoveryClient.getServices()) {
+            LOGGER.debug(app);
+        }
+        return new Boolean(true);
     }
 
 

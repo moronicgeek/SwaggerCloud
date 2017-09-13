@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
@@ -22,6 +23,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import za.co.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
 import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
 import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
+import za.co.moronicgeek.spring.swagger.server.registration.SwaggerCloudClientRegistrationListener;
 import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
@@ -41,6 +43,9 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Autowired
     private ServerProperties server;
+
+    @Autowired
+    DiscoveryClient discoveryClient;
 
 
 
@@ -120,7 +125,13 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
         return registry;
     }
 
+    @Bean
 
+    public SwaggerCloudClientRegistrationListener swaggerCloudClientRegistrationListener() {
+       // LOGGER.info("Registering SwaggerCloudClientRegistrationListener");
+        return new SwaggerCloudClientRegistrationListener();
+
+    }
 
     @Bean
     public SwaggerRegistrationController registrationController() {
