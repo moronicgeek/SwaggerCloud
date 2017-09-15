@@ -21,14 +21,14 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import za.co.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
-import za.co.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
-import za.co.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
-import za.co.moronicgeek.spring.swagger.server.registration.SwaggerCloudClientRegistrationListener;
-import za.co.moronicgeek.spring.swagger.server.registry.Registry;
-import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
-import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
-import za.co.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
+import com.github.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
+import com.github.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
+import com.github.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
+import com.github.moronicgeek.spring.swagger.server.registration.SwaggerCloudClientRegistrationListener;
+import com.github.moronicgeek.spring.swagger.server.registry.Registry;
+import com.github.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
+import com.github.moronicgeek.swagger.cloud.model.AdminRoutes;
+import com.github.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
 
 import java.util.List;
 

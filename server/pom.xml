@@ -4,14 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>swagger</artifactId>
-        <groupId>za.co.moronicgeek.spring</groupId>
+        <groupId>com.github.moronicgeek.spring</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>za.co.moronicgeek.spring.swagger</groupId>
+    <packaging>jar</packaging>
+    <groupId>com.github.moronicgeek.spring.swagger</groupId>
     <artifactId>server</artifactId>
-
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/moronicgeek/SwaggerCloud</url>
+    </scm>
 
     <!--<build>-->
         <!--<plugins>-->
@@ -38,7 +47,7 @@
 
 <dependencies>
     <dependency>
-        <groupId>za.co.moronicgeek.spring.swagger</groupId>
+        <groupId>com.github.moronicgeek.spring.swagger</groupId>
         <artifactId>core</artifactId>
         <version>${project.version}</version>
     </dependency>
@@ -76,7 +85,7 @@
     </dependency>
 
     <dependency>
-        <groupId>za.co.moronicgeek.spring</groupId>
+        <groupId>com.github.moronicgeek.spring</groupId>
         <artifactId>server-ui</artifactId>
         <version>${project.version}</version>
         <scope>runtime</scope>
