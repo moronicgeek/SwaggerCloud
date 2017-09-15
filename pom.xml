@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>client</module>
+        <module>server-ui</module>
         <module>server</module>
-        <!--<module>server-ui</module>-->
         <module>samples</module>
         <module>core</module>
     </modules>

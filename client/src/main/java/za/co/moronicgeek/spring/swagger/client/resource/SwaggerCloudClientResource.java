@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 @RestController
 public class SwaggerCloudClientResource {
@@ -13,8 +13,9 @@ public class SwaggerCloudClientResource {
     SwaggerCloudClientProperties properties;
 
 
-    @RequestMapping(value = "/properties", method = RequestMethod.GET)
+    @RequestMapping(value = "/swaggercloud/properties", method = RequestMethod.GET)
     public SwaggerCloudClientProperties getProperties(){
+
         return properties;
     }
 }

@@ -53,6 +53,10 @@ public class Registry {
     }
 
 
+    /**
+     *
+     * @return the size of groups not the size of the registry
+     */
     public int size() {
         return registry.size();
     }

@@ -8,8 +8,8 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.client.RestTemplate;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudAdminProperties;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudAdminProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 /**
  * Created by muhammedpatel on 2016/08/14.
@@ -21,7 +21,7 @@ public class ApplicationRegistrationServiceTest {
     @InjectMocks
 
     ApplicationRegistrationService service;
-@Mock
+    @Mock
     private SwaggerCloudAdminProperties adminProperties;
     @Mock
     private SwaggerCloudClientProperties clientProperties;
@@ -29,19 +29,19 @@ public class ApplicationRegistrationServiceTest {
     private RestTemplate template;
 
     @Before
-    public void initialize(){
+    public void initialize() {
 
         MockitoAnnotations.initMocks(this);
     }
 
     @Test
-    public void testRegister(){
+    public void testRegister() {
         //TODO Implement
 
     }
 
     @Test
-    public void testDeregister(){
+    public void testDeregister() {
         //TODO Implement
     }
 

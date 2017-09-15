@@ -15,9 +15,9 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import za.co.moronicgeek.spring.swagger.client.listener.RegistrationApplicationListener;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudAdminProperties;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
 import za.co.moronicgeek.spring.swagger.client.resource.SwaggerCloudClientResource;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudAdminProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 /**
  * Created by muhammedpatel on 2016/08/06.

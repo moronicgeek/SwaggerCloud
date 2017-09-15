@@ -17,6 +17,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.util.StringUtils;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -27,13 +28,14 @@ import za.co.moronicgeek.spring.swagger.server.registration.SwaggerCloudClientRe
 import za.co.moronicgeek.spring.swagger.server.registry.Registry;
 import za.co.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
 import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
+import za.co.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
 
 import java.util.List;
 
 /**
  * Created by muhammedpatel on 2016/08/01.
  */
-@ConditionalOnBean(annotation = { EnableSwaggerCloud.class })
+@ConditionalOnBean(annotation = {EnableSwaggerCloud.class})
 @Configuration
 @EnableConfigurationProperties
 
@@ -42,13 +44,9 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
 
     @Autowired
-    private ServerProperties server;
-
-    @Autowired
     DiscoveryClient discoveryClient;
-
-
-
+    @Autowired
+    private ServerProperties server;
     private ApplicationContext applicationContext;
 
     @Autowired
@@ -90,7 +88,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/**")
+        registry.addResourceHandler("/swagger-cloud/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
         registry.addResourceHandler("/swagger-ui/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
@@ -118,17 +116,12 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Bean
     public Registry registry() {
-
-        Registry registry = new Registry();
-
-
-        return registry;
+        return new Registry();
     }
 
     @Bean
-
     public SwaggerCloudClientRegistrationListener swaggerCloudClientRegistrationListener() {
-       // LOGGER.info("Registering SwaggerCloudClientRegistrationListener");
+        // LOGGER.info("Registering SwaggerCloudClientRegistrationListener");
         return new SwaggerCloudClientRegistrationListener();
 
     }
@@ -136,5 +129,15 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     @Bean
     public SwaggerRegistrationController registrationController() {
         return new SwaggerRegistrationController();
+    }
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+    @Bean
+    public SwaggerCloudClientRestTemplate swaggerCloudClientRestTemplate() {
+        return new SwaggerCloudClientRestTemplate(restTemplate());
     }
 }

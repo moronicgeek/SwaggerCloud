@@ -1,5 +1,6 @@
-package za.co.moronicgeek.spring.swagger.client.properties;
+package za.co.moronicgeek.swagger.cloud.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -17,6 +18,7 @@ public class SwaggerCloudClientProperties {
     private String description  ="";
 
     @Autowired
+    @JsonIgnore
     private ServerProperties server;
 
     private Integer serverPort;
@@ -69,5 +71,18 @@ public class SwaggerCloudClientProperties {
 
     public void setServerPort(Integer serverPort) {
         this.serverPort = serverPort;
+    }
+
+    @Override
+    public String toString() {
+        return "SwaggerCloudClientProperties{" +
+                "adminServerUrl='" + adminServerUrl + '\'' +
+                ", swaggerUrl='" + swaggerUrl + '\'' +
+                ", name='" + name + '\'' +
+                ", groupId='" + groupId + '\'' +
+                ", description='" + description + '\'' +
+                ", server=" + server +
+                ", serverPort=" + serverPort +
+                '}';
     }
 }

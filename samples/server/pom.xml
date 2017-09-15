@@ -16,6 +16,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>za.co.moronicgeek.spring</groupId>
+            <artifactId>server-ui</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
 
         <dependency>

@@ -1,4 +1,4 @@
-package za.co.moronicgeek.spring.swagger.client.properties;
+package za.co.moronicgeek.swagger.cloud.model;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -32,5 +32,14 @@ public class SwaggerCloudAdminProperties {
 
     public void setApiPath(String apiPath) {
         this.apiPath = apiPath;
+    }
+
+
+    @Override
+    public String toString() {
+        return "SwaggerCloudAdminProperties{" +
+                "url='" + url + '\'' +
+                ", apiPath='" + apiPath + '\'' +
+                '}';
     }
 }

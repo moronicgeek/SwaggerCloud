@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfigurati
 import org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;
 import org.springframework.boot.test.util.EnvironmentTestUtils;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 import static org.hamcrest.Matchers.is;
 

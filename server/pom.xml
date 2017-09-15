@@ -11,6 +11,31 @@
 
     <groupId>za.co.moronicgeek.spring.swagger</groupId>
     <artifactId>server</artifactId>
+
+
+    <!--<build>-->
+        <!--<plugins>-->
+
+            <!--<plugin>-->
+                <!--<artifactId>maven-assembly-plugin</artifactId>-->
+                <!--<version>3.1.0</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>package</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>single</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+                <!--<configuration>-->
+                    <!--<descriptors>-->
+                        <!--<descriptor>src/assembly/src.xml</descriptor>-->
+                    <!--</descriptors>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+
 <dependencies>
     <dependency>
         <groupId>za.co.moronicgeek.spring.swagger</groupId>
@@ -50,11 +75,12 @@
         <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 
-    <!--<dependency>-->
-        <!--<groupId>za.co.moronicgeek.spring</groupId>-->
-        <!--<artifactId>server-ui</artifactId>-->
-        <!--<version>${project.version}</version>-->
-    <!--</dependency>-->
+    <dependency>
+        <groupId>za.co.moronicgeek.spring</groupId>
+        <artifactId>server-ui</artifactId>
+        <version>${project.version}</version>
+        <scope>runtime</scope>
+    </dependency>
 
 </dependencies>
 

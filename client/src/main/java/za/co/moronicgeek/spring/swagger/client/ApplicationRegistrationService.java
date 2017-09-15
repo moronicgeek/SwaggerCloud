@@ -5,10 +5,10 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudAdminProperties;
-import za.co.moronicgeek.spring.swagger.client.properties.SwaggerCloudClientProperties;
 import za.co.moronicgeek.swagger.cloud.model.AdminRoutes;
 import za.co.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudAdminProperties;
+import za.co.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 import java.util.Collections;
 

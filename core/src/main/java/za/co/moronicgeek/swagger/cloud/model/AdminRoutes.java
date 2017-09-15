@@ -6,11 +6,13 @@ package za.co.moronicgeek.swagger.cloud.model;
 public enum AdminRoutes {
 
 
-    REGISTER("/register"), DEREGISTER("/unregister"),CONTEXT("/swaggercloud");
+    REGISTER("/register"),
+    DEREGISTER("/unregister"),
+    CONTEXT("/swaggercloud"),
+    PROPERTIES("/swaggercloud/properties");
 
 
-
-    private String path;
+    private final String path;
 
     AdminRoutes(final String path) {
         this.path =  path;
