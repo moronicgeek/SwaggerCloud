@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/src/assembly/src.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/resource/SwaggerCloudClientResource.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/resource/SwaggerCloudClientResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationServiceTest.java" afterPath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/ConfigurationTest.java" afterPath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ConfigurationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/AdminRoutes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/SwaggerCloudAdminProperties.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/SwaggerCloudAdminProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/SwaggerCloudClientProperties.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/SwaggerCloudClientProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/rest/SwaggerCloudClientRestTemplate.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/rest/SwaggerCloudClientRestTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/za/co/moronicgeek/ichi/IchiApplication.java" afterPath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/IchiApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/za/co/moronicgeek/ichi/SwaggerConfig.java" afterPath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/SwaggerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/za/co/moronicgeek/ichi/resource/OneResource.java" afterPath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/resource/OneResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/NiApplication.java" afterPath="$PROJECT_DIR$/samples/clients/ni/src/main/java/com/github/moronicgeek/ni/NiApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/SwaggerConfig.java" afterPath="$PROJECT_DIR$/samples/clients/ni/src/main/java/com/github/moronicgeek/ni/SwaggerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/TwoResource.java" afterPath="$PROJECT_DIR$/samples/clients/ni/src/main/java/com/github/moronicgeek/ni/TwoResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/eureka-sample/src/main/java/za/co/moronicgeek/samples/eureka/Application.java" afterPath="$PROJECT_DIR$/samples/eureka-sample/src/main/java/com/github/moronicgeek/samples/eureka/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samples/server/src/main/java/za/co/moronicgeek/sample/server/ServerApplication.java" afterPath="$PROJECT_DIR$/samples/server/src/main/java/com/github/moronicgeek/sample/server/ServerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinition.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinitionBuilder.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinitionBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/annotation/EnableSwaggerCloud.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/annotation/EnableSwaggerCloud.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/handler/PrefixHandlerMapping.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/handler/PrefixHandlerMapping.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registry/Registry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RegistryTest.java" afterPath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RegistryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java" afterPath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RestControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pom.xml" afterPath="$PROJECT_DIR$/client/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories" afterPath="$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/ichi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ni/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/ni/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/pom.xml" afterPath="$PROJECT_DIR$/samples/clients/san/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/eureka-sample/pom.xml" afterPath="$PROJECT_DIR$/samples/eureka-sample/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/pom.xml" afterPath="$PROJECT_DIR$/samples/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/server/pom.xml" afterPath="$PROJECT_DIR$/samples/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/pom.xml" afterPath="$PROJECT_DIR$/server-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.html" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/index.html" afterPath="$PROJECT_DIR$/server-ui/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/pom.xml" afterPath="$PROJECT_DIR$/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" afterPath="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1062,14 +1016,7 @@
       <workItem from="1474137133015" duration="1460000" />
       <workItem from="1504560146013" duration="5687000" />
       <workItem from="1505049386166" duration="960000" />
-      <workItem from="1505050930218" duration="31832000" />
-    </task>
-    <task id="LOCAL-00003" summary="Added travis.yml&#10;">
-      <created>1470603752742</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1470603752742</updated>
+      <workItem from="1505050930218" duration="31869000" />
     </task>
     <task id="LOCAL-00004" summary="removed server ui from build&#10;">
       <created>1470604234526</created>
@@ -1407,7 +1354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505512585443</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Refactored packages to conform to nexus repo standards">
+      <created>1505518056850</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1505518056850</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1443,7 +1397,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174524000" />
+    <option name="totallyTimeSpent" value="174561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1535,7 +1489,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A few commits to fix up the project a little. &#10;Need to complete the UI" />
     <MESSAGE value="removed jdk 7" />
     <MESSAGE value="added codacy badge" />
     <MESSAGE value="Fleshed out the Registry and Registry tests" />
@@ -1560,7 +1513,8 @@
     <MESSAGE value="Eureka integrated ... now to add to registry and delta the discovery instances." />
     <MESSAGE value="Front end corrected to display registry correctly&#10;Eureka was linked to the registry." />
     <MESSAGE value="Clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up" />
+    <MESSAGE value="Refactored packages to conform to nexus repo standards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored packages to conform to nexus repo standards" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1970,46 +1924,46 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1505517837000" expanded="true" signature="118719:118737" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="118719:118750" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="118719:118765" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137507:138573" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137507:138558" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="118867:119213" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="118886:119198" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119000:119178" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119040:119144" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119061:119122" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119263:119572" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119282:119557" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119359:119537" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119399:119503" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119420:119481" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119623:119888" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119642:119873" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119675:119853" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119715:119819" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119736:119797" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119931:120237" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="119950:120222" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="120024:120202" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="120064:120168" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="120085:120146" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137507:137805" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137507:137790" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137553:137770" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137593:137736" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137614:137714" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137840:138146" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137859:138131" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137933:138111" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137973:138077" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="137994:138055" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="138198:138544" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="138217:138529" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="138331:138509" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="138371:138475" ph="..." />
-            <marker date="1505517837000" expanded="true" signature="138392:138453" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="118719:118737" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="118719:118750" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="118719:118765" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125043:126109" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125043:126094" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="118867:119213" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="118886:119198" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119000:119178" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119040:119144" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119061:119122" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119263:119572" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119282:119557" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119359:119537" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119399:119503" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119420:119481" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119623:119888" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119642:119873" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119675:119853" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119715:119819" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119736:119797" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119931:120237" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="119950:120222" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="120024:120202" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="120064:120168" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="120085:120146" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125043:125341" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125043:125326" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125089:125306" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125129:125272" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125150:125250" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125376:125682" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125395:125667" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125469:125647" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125509:125613" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125530:125591" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125734:126080" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125753:126065" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125867:126045" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125907:126011" ph="..." />
+            <marker date="1505518024000" expanded="true" signature="125928:125989" ph="..." />
           </folding>
         </state>
       </provider>
