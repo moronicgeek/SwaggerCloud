@@ -88,7 +88,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/swagger-cloud/**")
+        registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
         registry.addResourceHandler("/swagger-ui/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
