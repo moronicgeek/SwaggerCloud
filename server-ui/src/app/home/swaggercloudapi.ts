@@ -9,7 +9,7 @@ export class SwaggerCloud {
 
 
     getAllApis() {
-        return this.makeRequest(`all/`);
+        return this.makeRequest(`registry`);
     }
 
     private makeRequest(path: string) {

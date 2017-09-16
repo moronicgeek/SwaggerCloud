@@ -21,12 +21,12 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import com.github.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
-import com.github.moronicgeek.spring.swagger.server.handler.PrefixHandlerMapping;
-import com.github.moronicgeek.spring.swagger.server.properties.SwaggerCloudProperties;
-import com.github.moronicgeek.spring.swagger.server.registration.SwaggerCloudClientRegistrationListener;
-import com.github.moronicgeek.spring.swagger.server.registry.Registry;
-import com.github.moronicgeek.spring.swagger.server.resource.SwaggerRegistrationController;
+import com.github.moronicgeek.swagger.cloud.server.annotation.EnableSwaggerCloud;
+import com.github.moronicgeek.swagger.cloud.server.handler.PrefixHandlerMapping;
+import com.github.moronicgeek.swagger.cloud.server.properties.SwaggerCloudProperties;
+import com.github.moronicgeek.swagger.cloud.server.registration.SwaggerCloudClientRegistrationListener;
+import com.github.moronicgeek.swagger.cloud.server.registry.Registry;
+import com.github.moronicgeek.swagger.cloud.server.resource.SwaggerRegistrationController;
 import com.github.moronicgeek.swagger.cloud.model.AdminRoutes;
 import com.github.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
 
@@ -88,7 +88,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/**")
+        registry.addResourceHandler("/**","/#/home")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
         registry.addResourceHandler("/swagger-ui/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");

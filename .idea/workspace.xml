@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da3793-d890-4663-b29f-8fecd5e6f6a9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/SwaggerConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/resource/OneResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SwaggerConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/ThreeResource.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/ApplicationRegistrationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/SwaggerAdminClientAutoConfiguration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/resource/SwaggerCloudClientResource.java" afterPath="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/resource/SwaggerCloudClientResource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationServiceTest.java" afterPath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/swagger/cloud/client/ApplicationRegistrationServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ConfigurationTest.java" afterPath="$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/swagger/cloud/client/ConfigurationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinition.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/ApiDefinition.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinitionBuilder.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/ApiDefinitionBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/annotation/EnableSwaggerCloud.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/annotation/EnableSwaggerCloud.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/handler/PrefixHandlerMapping.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/handler/PrefixHandlerMapping.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/properties/SwaggerCloudProperties.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/properties/SwaggerCloudProperties.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registration/SwaggerCloudClientRegistrationListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registry/Registry.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registry/Registry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/resource/SwaggerRegistrationController.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/resource/SwaggerRegistrationController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RegistryTest.java" afterPath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/swagger/cloud/server/RegistryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RestControllerTest.java" afterPath="$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/swagger/cloud/server/RestControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories" afterPath="$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java" afterPath="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/server/src/main/java/com/github/moronicgeek/sample/server/ServerApplication.java" afterPath="$PROJECT_DIR$/samples/server/src/main/java/com/github/moronicgeek/sample/server/ServerApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/home/home.html" afterPath="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-ui/src/app/home/swaggercloudapi.ts" afterPath="$PROJECT_DIR$/server-ui/src/app/home/swaggercloudapi.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" afterPath="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" />
     </list>
     <ignored path="SpringSwaggerAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,119 +65,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registry/Registry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#3754#3755#0" expanded="true" />
+                <element signature="e#3785#3786#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swagger.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/resources/public/swagger.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IchiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/IchiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="1251" column="21" lean-forward="false" selection-start-line="1251" selection-start-column="11" selection-end-line="1251" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1140">
-                <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
+      <file leaf-file-name="SwaggerRegistrationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/resource/SwaggerRegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="589">
+              <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
+      <file leaf-file-name="SwaggerCloudClientRegistrationListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registration/SwaggerCloudClientRegistrationListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="235">
+              <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/META-INF/spring.factories">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/index.html">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-ui/src/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -176,9 +195,11 @@
       <find>dist</find>
       <find>new Di</find>
       <find>za.co.moronicgeek</find>
+      <find>za.co</find>
     </findStrings>
     <replaceStrings>
       <replace>com.github.moronicgeek</replace>
+      <replace>com.github</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/samples/eureka-sample</dir>
@@ -195,15 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java" />
-        <option value="$PROJECT_DIR$/samples/eureka-sample/src/main/java/za/co/moronicgeek/samples/eureka/Application.java" />
-        <option value="$PROJECT_DIR$/samples/eureka-sample/pom.xml" />
-        <option value="$PROJECT_DIR$/samples/eureka-sample/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/server/src/test/java/za/co/moronicgeek/spring/swagger/server/RestControllerTest.java" />
-        <option value="$PROJECT_DIR$/samples/pom.xml" />
-        <option value="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/NiApplication.java" />
-        <option value="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/ThreeResource.java" />
-        <option value="$PROJECT_DIR$/samples/clients/ichi/src/main/java/za/co/moronicgeek/ichi/IchiApplication.java" />
         <option value="$PROJECT_DIR$/samples/clients/ni/src/main/java/za/co/moronicgeek/ni/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/samples/clients/pom.xml" />
         <option value="$PROJECT_DIR$/samples/clients/ichi/src/main/java/za/co/moronicgeek/ichi/OneResource.java" />
@@ -228,9 +240,7 @@
         <option value="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/ApplicationRegistrationServiceTest.java" />
         <option value="$PROJECT_DIR$/client/src/test/java/za/co/moronicgeek/spring/swagger/client/ConfigurationTest.java" />
         <option value="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/SwaggerCloudClientProperties.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/SwaggerCloudAdminProperties.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/za/co/moronicgeek/swagger/cloud/model/AdminRoutes.java" />
@@ -239,13 +249,24 @@
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registry/Registry.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/za/co/moronicgeek/spring/swagger/server/ApiDefinition.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" />
         <option value="$PROJECT_DIR$/samples/server/pom.xml" />
-        <option value="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/server-ui/src/index.html" />
         <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registry/Registry.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/ApplicationRegistrationService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registry/Registry.java" />
+        <option value="$PROJECT_DIR$/server-ui/src/app/home/swaggercloudapi.ts" />
+        <option value="$PROJECT_DIR$/server-ui/src/app/home/home.html" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/resource/SwaggerRegistrationController.java" />
+        <option value="$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -309,6 +330,354 @@
             <path>
               <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ichi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ni" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ni" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="ni" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwaggerCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,48 +750,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerApplication">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.co.moronicgeek.samples.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.samples.eureka.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+  <component name="RunManager" selected="Compound.Start Samples">
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.moronicgeek.samples.eureka.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="eureka-sample" />
       <envs />
     </configuration>
-    <configuration name="IchiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.co.moronicgeek.ichi.resource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.ichi.IchiApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <configuration name="IchiClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.moronicgeek.ichi.IchiApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ichi" />
       <envs />
     </configuration>
-    <configuration name="NiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="NIiClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="za.co.moronicgeek.ni.NiApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.moronicgeek.ni.NiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="ni" />
       <envs />
     </configuration>
@@ -476,30 +822,11 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="SaniClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="za.co.moronicgeek.san.SanApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="san" />
-      <envs />
-    </configuration>
-    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.co.moronicgeek.sample.server.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="za.co.moronicgeek.sample.server.ServerApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="server (1) (za.co.discovery.spring.samples.server)" />
       <envs />
     </configuration>
     <configuration default="false" name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -509,11 +836,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="Start Samples" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration" />
+    <configuration name="Start Samples" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="SpringBootApplicationConfigurationType" name="EurekaServer" />
+      <toRun type="SpringBootApplicationConfigurationType" name="IchiClient" />
+      <toRun type="SpringBootApplicationConfigurationType" name="NIiClient" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SaniClient" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwaggerCloudServer" />
+    </configuration>
     <configuration name="Start UI" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/server-ui/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="SwaggerCloudServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.moronicgeek.sample.server.ServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="server (1) (za.co.discovery.spring.samples.server)" />
       <envs />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="">
@@ -968,22 +1308,19 @@
     </configuration>
     <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Compound.Start Samples" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SanApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.NiApplication" />
-      <item index="3" class="java.lang.String" itemvalue="npm.Start UI" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ServerApplication" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Application" />
-      <item index="8" class="java.lang.String" itemvalue="Application.IchiApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.IchiClient" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.NIiClient" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SaniClient" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SwaggerCloudServer" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.EurekaServer" />
+      <item index="6" class="java.lang.String" itemvalue="npm.Start UI" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IchiApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ServerApplication" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RegistryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1016,14 +1353,7 @@
       <workItem from="1474137133015" duration="1460000" />
       <workItem from="1504560146013" duration="5687000" />
       <workItem from="1505049386166" duration="960000" />
-      <workItem from="1505050930218" duration="31869000" />
-    </task>
-    <task id="LOCAL-00004" summary="removed server ui from build&#10;">
-      <created>1470604234526</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1470604234526</updated>
+      <workItem from="1505050930218" duration="36302000" />
     </task>
     <task id="LOCAL-00005" summary="Added Travis CI to readme">
       <created>1470604798867</created>
@@ -1361,7 +1691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505518056850</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Refactored packages to conform to nexus repo standards">
+      <created>1505518071399</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1505518071399</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1397,7 +1734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174561000" />
+    <option name="totallyTimeSpent" value="178994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1409,7 +1746,7 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4477612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1419,11 +1756,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36691543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36691543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15422885" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3469242" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3469242" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1525,43 +1862,43 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java</url>
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java</url>
           <line>73</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RegistryTest.java</url>
+          <url>file://$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/swagger/cloud/server/RegistryTest.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java</url>
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java</url>
           <line>85</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java</url>
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java</url>
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java</url>
           <line>76</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java</url>
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java</url>
           <line>78</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java</url>
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registration/SwaggerCloudClientRegistrationListener.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="45" />
@@ -1585,88 +1922,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.jar!/META-INF/maven/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="140" column="8" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/assembly/src.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/za/co/moronicgeek/spring/swagger/client/properties/SwaggerCloudClientProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ApplicationRegistrationServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/spring/swagger/client/ConfigurationTest.java">
+    <entry file="file://$PROJECT_DIR$/client/src/test/java/com/github/moronicgeek/swagger/cloud/client/ConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/SwaggerAdminClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1691,38 +1950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1770,15 +1997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/listener/RegistrationApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/spring/swagger/client/resource/SwaggerCloudClientResource.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/resource/SwaggerCloudClientResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -1796,7 +2015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinitionBuilder.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/ApiDefinitionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1804,63 +2023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/spring/swagger/server/RegistryTest.java">
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/github/moronicgeek/swagger/cloud/server/RegistryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="124" column="33" lean-forward="false" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="1004" column="13" lean-forward="false" selection-start-line="1004" selection-start-column="13" selection-end-line="1004" selection-end-column="13" />
-          <folding>
-            <element signature="e#44347#44348#0" expanded="false" />
-            <element signature="e#44395#44396#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registration/SwaggerCloudClientRegistrationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/metadata.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/registry/Registry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/spring/swagger/server/ApiDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1924,78 +2090,47 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1505518024000" expanded="true" signature="118719:118737" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="118719:118750" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="118719:118765" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125043:126109" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125043:126094" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="118867:119213" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="118886:119198" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119000:119178" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119040:119144" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119061:119122" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119263:119572" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119282:119557" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119359:119537" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119399:119503" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119420:119481" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119623:119888" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119642:119873" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119675:119853" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119715:119819" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119736:119797" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119931:120237" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="119950:120222" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="120024:120202" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="120064:120168" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="120085:120146" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125043:125341" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125043:125326" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125089:125306" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125129:125272" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125150:125250" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125376:125682" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125395:125667" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125469:125647" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125509:125613" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125530:125591" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125734:126080" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125753:126065" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125867:126045" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125907:126011" ph="..." />
-            <marker date="1505518024000" expanded="true" signature="125928:125989" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="118719:118737" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="118719:118750" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="118719:118765" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142056:143122" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142056:143107" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="118867:119213" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="118886:119198" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119000:119178" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119040:119144" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119061:119122" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119263:119572" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119282:119557" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119359:119537" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119399:119503" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119420:119481" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119623:119888" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119642:119873" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119675:119853" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119715:119819" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119736:119797" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119931:120237" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="119950:120222" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="120024:120202" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="120064:120168" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="120085:120146" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142056:142354" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142056:142339" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142102:142319" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142142:142285" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142163:142263" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142389:142695" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142408:142680" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142482:142660" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142522:142626" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142543:142604" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142747:143093" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142766:143078" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142880:143058" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142920:143024" ph="..." />
+            <marker date="1505522951000" expanded="true" signature="142941:143002" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-ui/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -2021,19 +2156,6 @@
     <entry file="file://$PROJECT_DIR$/server-ui/src/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1140">
-            <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -2068,8 +2190,221 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="145">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/san/src/main/java/za/co/moronicgeek/san/SanApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/metadata.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="189">
+            <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/listener/RegistrationApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/SwaggerAdminClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="56" column="93" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/moronicgeek/swagger/cloud/model/ApplicationRegistrationMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/moronicgeek/swagger/cloud/client/ApplicationRegistrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="52" column="47" lean-forward="false" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/ApiDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/swaggercloud/autoconfigure/SpringSwaggerCloudServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="90" column="41" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/swaggercloudapi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ui/src/app/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1251" column="21" lean-forward="false" selection-start-line="1251" selection-start-column="11" selection-end-line="1251" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/resource/SwaggerRegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registry/Registry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#3754#3755#0" expanded="true" />
+            <element signature="e#3785#3786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/resources/public/swagger.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/java/com/github/moronicgeek/ichi/IchiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/ichi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/ni/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/github/moronicgeek/swagger/cloud/server/registration/SwaggerCloudClientRegistrationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/clients/san/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
           <folding />
         </state>
       </provider>

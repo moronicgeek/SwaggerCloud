@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import com.github.moronicgeek.spring.swagger.server.annotation.EnableSwaggerCloud;
+import com.github.moronicgeek.swagger.cloud.server.annotation.EnableSwaggerCloud;
 
 /**
  * Created by muhammedpatel on 2016/08/07.

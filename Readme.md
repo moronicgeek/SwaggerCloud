@@ -27,7 +27,7 @@ It's not an API Manager
 Simply add the following maven dependency to your project.
 ```
  <dependency>
-            <groupId>za.co.moronicgeek.spring.swagger</groupId>
+            <groupId>com.github.moronicgeek.spring.swagger</groupId>
             <artifactId>client</artifactId>
             <version>${project.version}</version>
   </dependency>
@@ -59,7 +59,7 @@ state.
 
  ```
    <dependency>
-             <groupId>za.co.moronicgeek.spring.swagger</groupId>
+             <groupId>com.github.moronicgeek.spring.swagger</groupId>
              <artifactId>server</artifactId>
              <version>1.0-SNAPSHOT</version>
    </dependency>
