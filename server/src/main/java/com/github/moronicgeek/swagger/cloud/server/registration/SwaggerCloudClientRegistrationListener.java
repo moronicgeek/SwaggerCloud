@@ -52,9 +52,7 @@ public class SwaggerCloudClientRegistrationListener {
     @Order(Ordered.LOWEST_PRECEDENCE)
     public void onApplicationReady(ApplicationReadyEvent event) {
         LOGGER.info("Attempting to Register Application with Swagger Cloud Server");
-        //right now it's just purging the whole registry..
-        //TODO think around what to do here
-        registry.purge();
+
         if (scheduledTask != null && !scheduledTask.isDone()) {
             return;
         }
@@ -62,6 +60,9 @@ public class SwaggerCloudClientRegistrationListener {
         scheduledTask = taskScheduler.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
+                //right now it's just purging the whole registry..
+                //TODO think around what to do here
+                registry.purge();
                 try {
                     if (discoveryClient != null)
                         for (String appl : discoveryClient.getServices()) {
@@ -71,12 +72,8 @@ public class SwaggerCloudClientRegistrationListener {
                             for (ServiceInstance instance : instances) {
                                 ApplicationRegistrationMetadata metadata = new ApplicationRegistrationMetadata();
                                 LOGGER.debug(instance.getHost());
-                                LOGGER.debug(instance.getServiceId());
-                                LOGGER.debug(instance.getMetadata().toString());
                                 LOGGER.debug(instance.getPort() + "");
-                                LOGGER.debug(instance.getUri().toString());
 
-                                LOGGER.debug(instance.getUri().toString());
                                 try {
                                     SwaggerCloudClientProperties props = template.getClientProperties(instance.getUri().toString());
 
@@ -88,7 +85,7 @@ public class SwaggerCloudClientRegistrationListener {
                                 registry.addApi(metadata);
                                 LOGGER.debug(props.toString());
                                 }catch (Exception e){
-
+                                    LOGGER.warn("Server not swagger cloud enabled. Cannot find client endpoint enabled by swagger cloud client library");
                                 }
 
 

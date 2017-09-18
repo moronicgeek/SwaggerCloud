@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="https://bootswatch.com/simplex/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/darkly/bootstrap.min.css">
 
 
 <div class="col-md-4" *ngFor="let repo of repoDetails">
@@ -26,8 +26,9 @@
 
                 </select>
 
-            <button type="button" (click)="redirectClick(repo[0].swaggerUrl)"
-                    class="btn btn-lg btn-info navbar-right button-padding">Swagger Docs
+
+            <button type="button" (click)="redirectClick('http://'+repo[0].host+':'+repo[0].port+repo[0].swaggerUrl)"
+                    class="btn btn-info navbar-right button-padding">Swagger Docs
             </button>
         </div>
     </div>
