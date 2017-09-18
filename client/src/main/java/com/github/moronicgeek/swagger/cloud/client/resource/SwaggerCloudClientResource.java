@@ -10,7 +10,7 @@ import com.github.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 public class SwaggerCloudClientResource {
 
     @Autowired
-    SwaggerCloudClientProperties properties;
+    private SwaggerCloudClientProperties properties;
 
 
     @RequestMapping(value = "/swaggercloud/properties", method = RequestMethod.GET)

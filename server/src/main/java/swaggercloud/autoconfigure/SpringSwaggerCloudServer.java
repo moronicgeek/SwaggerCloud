@@ -28,6 +28,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import java.util.List;
 
@@ -85,26 +86,17 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
         return new SwaggerCloudProperties();
     }
 
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/**","/#/**")
-                .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
-        registry.addResourceHandler("/swagger-ui/**")
-                .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        registry.addResourceHandler("/**")
+//                .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
+//        registry.addResourceHandler("/swagger-ui/**")
+//                .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
+//
+//
+//    }
 
 
-    }
-
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-//        String contextPath = "/";
-//        if (StringUtils.hasText(contextPath)) {
-//            registry.addRedirectViewController(contextPath,
-//                    server.getPath(contextPath) + "/");
-//        }
-//        registry.addViewController(contextPath + "/")
-//                .setViewName("forward:index.html");
-    }
 
     @Bean
     public PrefixHandlerMapping prefixHandlerMapping() {
@@ -139,4 +131,25 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
     public SwaggerCloudClientRestTemplate swaggerCloudClientRestTemplate() {
         return new SwaggerCloudClientRestTemplate(restTemplate());
     }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/**")
+                .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
+        registry.addResourceHandler("/swagger-ui/**")
+                .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
+    }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/").setViewName("forward:/index.html");
+    }
+
+    @Bean
+    public InternalResourceViewResolver defaultViewResolver() {
+        return new InternalResourceViewResolver();
+    }
+
+
+
 }

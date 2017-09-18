@@ -1,6 +1,9 @@
 package com.github.moronicgeek.swagger.cloud.client;
 
 import com.github.moronicgeek.swagger.cloud.client.listener.RegistrationApplicationListener;
+import com.github.moronicgeek.swagger.cloud.client.resource.SwaggerCloudClientResource;
+import com.github.moronicgeek.swagger.cloud.model.SwaggerCloudAdminProperties;
+import com.github.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,12 +15,12 @@ import org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServic
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import com.github.moronicgeek.swagger.cloud.client.resource.SwaggerCloudClientResource;
-import com.github.moronicgeek.swagger.cloud.model.SwaggerCloudAdminProperties;
-import com.github.moronicgeek.swagger.cloud.model.SwaggerCloudClientProperties;
 
 /**
  * Created by muhammedpatel on 2016/08/06.
@@ -61,6 +64,20 @@ public class SwaggerAdminClientAutoConfiguration {
 
     }
 
+    @Bean
+    public CorsFilter corsFilter() {
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
+        // Allow anyone and anything access. Probably ok for Swagger spec
+        CorsConfiguration config = new CorsConfiguration();
+        config.setAllowCredentials(true);
+        config.addAllowedOrigin("*");
+        config.addAllowedHeader("*");
+        config.addAllowedMethod("*");
+
+        source.registerCorsConfiguration("/v2/api-docs", config);
+        return new CorsFilter(source);
+    }
 
     @Bean
     public WebMvcConfigurer corsConfigurer() {
@@ -68,6 +85,7 @@ public class SwaggerAdminClientAutoConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**/swagger.json").allowedOrigins("*");
+                registry.addMapping("/**/api-docs").allowedOrigins("*");
             }
         };
     }
