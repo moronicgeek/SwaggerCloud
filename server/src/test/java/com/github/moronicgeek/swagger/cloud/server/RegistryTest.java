@@ -114,7 +114,7 @@ public class RegistryTest {
         metadata4.setGroupId("za.co.moronicgeek.api4");
         metadata4.setSwaggerUrl("Another");
         registry.addApi(metadata4);
-        Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(2));
+        Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(1));
         ApiDefinition meta = registry.getMetadataByGroupId("za.co.moronicgeek.api4");
 
         ApplicationRegistrationMetadata metadata2 = new ApplicationRegistrationMetadata();
