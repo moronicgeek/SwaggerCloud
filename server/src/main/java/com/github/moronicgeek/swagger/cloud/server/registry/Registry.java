@@ -1,13 +1,13 @@
 package com.github.moronicgeek.swagger.cloud.server.registry;
 
+import com.github.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
 import com.github.moronicgeek.swagger.cloud.server.ApiDefinition;
-import com.github.moronicgeek.swagger.cloud.server.ApiDefinitionBuilder;
 import io.swagger.models.Swagger;
 import io.swagger.parser.SwaggerParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;
-import com.github.moronicgeek.swagger.cloud.model.ApplicationRegistrationMetadata;
+import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,15 +24,23 @@ public class Registry {
         Assert.notNull(metadata);
         Assert.notNull(metadata.getGroupId());
         Assert.notNull(metadata.getSwaggerUrl());
-        Swagger swagger = new SwaggerParser().read(metadata.getSwaggerUrl());
+        ApiDefinition api = new ApiDefinition();
+        try {
+            Swagger swagger = new SwaggerParser().read(metadata.getSwaggerUrl());
+            if (swagger != null) {
+                api.setDescription(swagger.getInfo().getDescription());
+            }
+        }catch (HttpClientErrorException exception){
 
-        ApiDefinition api = new ApiDefinitionBuilder().createApiDefinition();
-        api.setGroupId(metadata.getGroupId());
-        api.setSwaggerUrl(metadata.getSwaggerUrl());
-        api.setName(metadata.getName());
-        if (swagger != null) {
-            api.setDescription(swagger.getInfo().getDescription());
+            return true;
         }
+
+            api.setGroupId(metadata.getGroupId());
+            api.setSwaggerUrl(metadata.getSwaggerUrl());
+            api.setName(metadata.getName());
+            api.setHost(metadata.getHost());
+            api.setPort(metadata.getPort());
+
 
         Set<ApiDefinition> swaggerGroup = registry.get(metadata.getGroupId());
         if (swaggerGroup == null) {

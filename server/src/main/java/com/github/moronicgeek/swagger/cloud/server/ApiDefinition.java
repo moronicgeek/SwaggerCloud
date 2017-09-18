@@ -10,12 +10,19 @@ public class ApiDefinition {
     private String swaggerUrl;
     private String groupId;
     private String description;
+    private String host;
+    private int port;
 
-    public ApiDefinition(String name, String swaggerUrl, String groupId, String description) {
+    public ApiDefinition() {
+    }
+
+    public ApiDefinition(String name, String swaggerUrl, String groupId, String description, String host, int port) {
         this.name = name;
         this.swaggerUrl = swaggerUrl;
         this.groupId = groupId;
         this.description = description;
+        this.host = host;
+        this.port = port;
     }
 
     public String getName() {
@@ -50,6 +57,22 @@ public class ApiDefinition {
         this.description = description;
     }
 
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -57,14 +80,16 @@ public class ApiDefinition {
 
         ApiDefinition that = (ApiDefinition) o;
 
-        if (swaggerUrl != null ? !swaggerUrl.equals(that.swaggerUrl) : that.swaggerUrl != null) return false;
-        return groupId != null ? groupId.equals(that.groupId) : that.groupId == null;
+        if (port != that.port) return false;
+        if (groupId != null ? !groupId.equals(that.groupId) : that.groupId != null) return false;
+        return host != null ? host.equals(that.host) : that.host == null;
     }
 
     @Override
     public int hashCode() {
-        int result = swaggerUrl != null ? swaggerUrl.hashCode() : 0;
-        result = 31 * result + (groupId != null ? groupId.hashCode() : 0);
+        int result = groupId != null ? groupId.hashCode() : 0;
+        result = 31 * result + (host != null ? host.hashCode() : 0);
+        result = 31 * result + port;
         return result;
     }
 }

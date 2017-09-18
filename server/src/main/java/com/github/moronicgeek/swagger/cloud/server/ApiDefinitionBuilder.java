@@ -26,7 +26,5 @@ public class ApiDefinitionBuilder {
         return this;
     }
 
-    public ApiDefinition createApiDefinition() {
-        return new ApiDefinition(name, swaggerUrl, groupId, description);
-    }
+
 }

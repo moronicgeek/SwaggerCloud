@@ -8,11 +8,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>client</module>
+        <module>core</module>
         <module>server-ui</module>
+        <module>client</module>
         <module>server</module>
         <module>samples</module>
-        <module>core</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

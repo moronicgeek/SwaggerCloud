@@ -77,11 +77,18 @@ public class SwaggerCloudClientRegistrationListener {
                                 LOGGER.debug(instance.getUri().toString());
 
                                 LOGGER.debug(instance.getUri().toString());
-                                SwaggerCloudClientProperties props = template.getClientProperties(instance.getUri().toString());
+                                try {
+                                    SwaggerCloudClientProperties props = template.getClientProperties(instance.getUri().toString());
+
                                 metadata.setGroupId(props.getGroupId());
                                 metadata.setSwaggerUrl(props.getSwaggerUrl() );
+                                metadata.setPort(instance.getPort());
+                                metadata.setHost(instance.getHost());
                                 registry.addApi(metadata);
                                 LOGGER.debug(props.toString());
+                                }catch (Exception e){
+
+                                }
 
 
                             }
@@ -90,7 +97,7 @@ public class SwaggerCloudClientRegistrationListener {
                         }
 
                 } catch (Exception e) {
-                    LOGGER.warn("Server not swagger cloud enabled. Cannot find client endpoint enabled by swagger cloud client library", e);
+                    LOGGER.warn("Server not swagger cloud enabled. Cannot find client endpoint enabled by swagger cloud client library");
                 }
             }
         }, registerPeriod);

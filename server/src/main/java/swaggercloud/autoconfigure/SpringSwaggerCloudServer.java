@@ -1,6 +1,14 @@
 package swaggercloud.autoconfigure;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.moronicgeek.swagger.cloud.model.AdminRoutes;
+import com.github.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
+import com.github.moronicgeek.swagger.cloud.server.annotation.EnableSwaggerCloud;
+import com.github.moronicgeek.swagger.cloud.server.handler.PrefixHandlerMapping;
+import com.github.moronicgeek.swagger.cloud.server.properties.SwaggerCloudProperties;
+import com.github.moronicgeek.swagger.cloud.server.registration.SwaggerCloudClientRegistrationListener;
+import com.github.moronicgeek.swagger.cloud.server.registry.Registry;
+import com.github.moronicgeek.swagger.cloud.server.resource.SwaggerRegistrationController;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
@@ -16,19 +24,10 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import com.github.moronicgeek.swagger.cloud.server.annotation.EnableSwaggerCloud;
-import com.github.moronicgeek.swagger.cloud.server.handler.PrefixHandlerMapping;
-import com.github.moronicgeek.swagger.cloud.server.properties.SwaggerCloudProperties;
-import com.github.moronicgeek.swagger.cloud.server.registration.SwaggerCloudClientRegistrationListener;
-import com.github.moronicgeek.swagger.cloud.server.registry.Registry;
-import com.github.moronicgeek.swagger.cloud.server.resource.SwaggerRegistrationController;
-import com.github.moronicgeek.swagger.cloud.model.AdminRoutes;
-import com.github.moronicgeek.swagger.cloud.rest.SwaggerCloudClientRestTemplate;
 
 import java.util.List;
 
@@ -88,7 +87,7 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/**","/#/home")
+        registry.addResourceHandler("/**","/#/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-cloud-ui/");
         registry.addResourceHandler("/swagger-ui/**")
                 .addResourceLocations("classpath:/META-INF/resources/swagger-ui/");
@@ -98,13 +97,13 @@ public class SpringSwaggerCloudServer extends WebMvcConfigurerAdapter
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        String contextPath = "/";
-        if (StringUtils.hasText(contextPath)) {
-            registry.addRedirectViewController(contextPath,
-                    server.getPath(contextPath) + "/");
-        }
-        registry.addViewController(contextPath + "/")
-                .setViewName("forward:index.html");
+//        String contextPath = "/";
+//        if (StringUtils.hasText(contextPath)) {
+//            registry.addRedirectViewController(contextPath,
+//                    server.getPath(contextPath) + "/");
+//        }
+//        registry.addViewController(contextPath + "/")
+//                .setViewName("forward:index.html");
     }
 
     @Bean

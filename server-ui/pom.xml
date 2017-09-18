@@ -8,10 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.github.moronicgeek.spring</groupId>
     <artifactId>server-ui</artifactId>
-
     <build>
         <plugins>
             <plugin>

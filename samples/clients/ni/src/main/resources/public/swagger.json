@@ -2,7 +2,7 @@
   "info" : {
     "description" : "This is a sample for IchiServer",
     "version" : "v1",
-    "title" : "NiServer",
+    "title" : "Ni API Server",
     "termsOfService" : "http://www.github.com/moronicgeek",
     "contact" : {
       "name" : "Muhammed Patel",

@@ -28,8 +28,6 @@ public class ApplicationRegistrationMetadata {
     }
 
 
-
-
     public int getId() {
         return id;
     }
@@ -60,6 +58,22 @@ public class ApplicationRegistrationMetadata {
 
     public void setGroupId(String groupId) {
         this.groupId = groupId;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
     }
 
     @Override
