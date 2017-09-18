@@ -84,6 +84,7 @@ public class SwaggerCloudClientRegistrationListener {
                                 metadata.setSwaggerUrl(props.getSwaggerUrl() );
                                 metadata.setPort(instance.getPort());
                                 metadata.setHost(instance.getHost());
+                                metadata.setName(props.getName());
                                 registry.addApi(metadata);
                                 LOGGER.debug(props.toString());
                                 }catch (Exception e){
