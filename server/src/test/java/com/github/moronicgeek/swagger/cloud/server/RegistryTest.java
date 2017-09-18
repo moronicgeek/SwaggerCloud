@@ -123,7 +123,7 @@ public class RegistryTest {
         metadata2.setGroupId("za.co.moronicgeek.api4");
         metadata2.setSwaggerUrl("Dont care");
         registry.unRegisterApplication(metadata2);
-        Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(1));
+        Assert.assertThat(registry.sizeOf("za.co.moronicgeek.api4"), Is.is(0));
 
     }
 
