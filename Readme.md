@@ -5,7 +5,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1c17f07400bc4dbc9e9bc93861d73bb8)](https://www.codacy.com/app/patel-muhammed/SwaggerCloud?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=moronicgeek/SwaggerCloud&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/moronicgeek/SwaggerCloud/branch/master/graph/badge.svg)](https://codecov.io/gh/moronicgeek/SwaggerCloud)
 
-Note : We have not published to Maven Repo yet.
 
 An API document catalog. This project centralises your swagger documentation in one portal. If your api has a swagger json file then the swagger cloud server can consume that to consolidate all your api documentation. 
 The project leverages of the [swagger/swagger-ui](https://github.com/swagger-api/swagger-uiswagger/swagger-ui) project for the swagger interface. 
@@ -27,7 +26,7 @@ It's not an API Manager
 Simply add the following maven dependency to your project.
 ```
  <dependency>
-            <groupId>com.github.moronicgeek.spring.swagger</groupId>
+            <groupId>com.github.moronicgeek.swagger</groupId>
             <artifactId>client</artifactId>
             <version>${project.version}</version>
   </dependency>
@@ -59,9 +58,9 @@ state.
 
  ```
    <dependency>
-             <groupId>com.github.moronicgeek.spring.swagger</groupId>
+             <groupId>com.github.moronicgeek.swagger</groupId>
              <artifactId>server</artifactId>
-             <version>1.0-SNAPSHOT</version>
+             <version>0.1</version>
    </dependency>
  ```
 
@@ -71,7 +70,7 @@ state.
  @EnableSwaggerCloud
  ```
 
- Have a look at the server project in our samples project.
+ Have a look at the server project in our samples project. 
 
 ### Get coding
 

@@ -6,3 +6,4 @@ npm-debug.log
 .DS_Store
 
 /server-ui/dist/
+deploySetting.xml
